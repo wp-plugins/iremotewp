@@ -1,0 +1,23 @@
+#iremotewp_settings {
+	background:#FFFFFF;
+	padding:20px;
+	margin-top:30px;
+	border:3px solid #7AD03A;
+	font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 300;
+    text-align:center;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+#iremote_info {
+	background:#FFFFFF;
+	padding:20px;
+	text-align:center;
+	margin-top:30px;
+	border:3px solid #DD3D36;
+	font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 300;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
