@@ -61,9 +61,9 @@ iRemoteWP plugin will be update itself automatically.
 
 == Changelog ==
 
-#### 1.0.1 (?? ???? ???)
+#### 1.0.8 (?? ???? ???)
 
-#### 1.0.0 (15 March 2014)
+#### 1.1.7 (18 March 2014)
 
 * Initial public release iRemoteWP
 
