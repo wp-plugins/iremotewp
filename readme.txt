@@ -1,4 +1,4 @@
-=== iRemoteWP WordPress Plugin ===
+=== iRemoteWP WordPress Control Plugin ===
 Contributors: iremotewp
 Donate link: http://www.gofundme.com/6rzjmc
 Tags: iremotewp, remote administration, multiple wordpress, one click update, remote management, automatic backup, automatic update
