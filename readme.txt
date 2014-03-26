@@ -1,7 +1,7 @@
-=== iRemoteWP WordPress Control Plugin ===
+=== iRemoteWP Multiple WordPress Control Plugin ===
 Contributors: iremotewp
 Donate link: http://www.gofundme.com/6rzjmc
-Tags: iremotewp, remote administration, multiple wordpress, one click update, remote management, automatic backup, automatic update
+Tags: iremotewp, remote administration, multiple wordpress, one click update, remote management, automatic backup, automatic update, admin, administration, amazon, analytics, api, authentication, automatic, dashboard, dropbox, events, google drive, integration, manage, multsite, notification, s3, security, stats, tracking, migrate, auto update
 Requires at least: 3.0
 Tested up to: 3.8
 Stable tag: 1.1.7
@@ -15,21 +15,24 @@ iRemoteWP plugin allows you to easily and remotely manage all your WordPress bas
 The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from One Location") WordPress plugin is a amazing multiple WordPress sites management service from one location and works with [iRemoteWP.com](http://iremotewp.com/). Remotely manage all your WordPress sites from one, easy dashboard.
 
 
-
 = Features =
 
 * Secure, fast and easy solution for manage all your WordPress sites from one easy dashboard.
 * Manually or automatically update any or all your WordPress core installs, plugins and themes.
 * Manually or scheduled automated backups of your websites (Amazon S3, Google Drive and Dropbox supported).
-* Monitor, track all your sites WordPress version, plugins, themes each site is running and easily update.
+* Monitor, track all of your sites WordPress version, plugins, themes each site is running and easily update.
 * One click to access WP admin of any site. No need to any admin password!
 * Manage, delete, install, activate, deactivate all your current plugins and themes and install new themes and plugins one central place.
 * Free to monitor and update an unlimited number of sites.
 * Track and get notification about your website accessibility.
 * Track your activity logs and task queue.
 
-Check out [iRemoteWP.com](http://iremotewp.com/ "Multiple WordPress Site Management from One Dashboard").
 
+Check out the [iRemoteWP Video](https://www.youtube.com/watch?v=QBZ923H3xsE).
+
+https://www.youtube.com/watch?v=QBZ923H3xsE
+
+Check out [iRemoteWP.com](http://iremotewp.com/ "Multiple WordPress Site Management from One Dashboard").
 
 
 = Support =
