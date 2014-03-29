@@ -1,7 +1,7 @@
 === iRemoteWP Multiple WordPress Control Plugin ===
 Contributors: iremotewp
 Donate link: http://www.gofundme.com/6rzjmc
-Tags: iremotewp, remote administration, multiple wordpress, one click update, remote management, automatic backup, automatic update, admin, administration, amazon, analytics, api, authentication, automatic, dashboard, dropbox, events, google drive, integration, manage, multsite, notification, s3, security, stats, tracking, migrate, auto update
+Tags: iremotewp, remote administration, multiple wordpress, one click update, remote management, automatic backup, automatic updates, admin, administration, amazon, analytics, api, authentication, automatic, bulk manage, dashboard, dropbox, events, google drive, integration, manage, multsite, notification, s3, security, seo, stats, tracking, restore, clone, updates
 Requires at least: 3.0
 Tested up to: 3.8
 Stable tag: 1.1.7
@@ -64,7 +64,7 @@ iRemoteWP plugin will be update itself automatically.
 
 == Changelog ==
 
-#### 1.0.8 (?? ???? ???)
+#### 1.1.8 (?? ???? ???)
 
 #### 1.1.7 (18 March 2014)
 
