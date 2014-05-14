@@ -186,7 +186,7 @@ class IREMOTE_Backups extends IREMOTE_HM_Backup {
 			    }
 
     if($error){
-    	return false;
+    	return new WP_Error( 'errors', $e->getMessage() );
     } else {
     	return  true;
     }
