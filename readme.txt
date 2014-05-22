@@ -63,7 +63,7 @@ iRemoteWP plugin will be update itself automatically.
 
 
 == Changelog ==
-#### 1.1.8 (14 May 2014)
+#### 1.1.9 (22 May 2014)
 * Dropbox Uploader Fixed
 
 #### 1.1.8 (14 May 2014)
