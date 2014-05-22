@@ -60,7 +60,7 @@ class IREM_API_Request {
 	}
 
 	static function get_version() {
-		return '1.1.8';
+		return '1.1.9';
 	}
 
 	static function get_args() {
