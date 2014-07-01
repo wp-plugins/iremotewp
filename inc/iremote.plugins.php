@@ -205,17 +205,34 @@ function _iremo_install_plugin( $plugin, $args = array() ) {
 
 	// Access the plugins_api() helper function
 	include_once ABSPATH . 'wp-admin/includes/plugin-install.php';
+
 	$api_args = array(
 		'slug' => $plugin,
 		'fields' => array( 'sections' => false )
 		);
+	if (empty( $args['zip_url'] ) ) {
+
 	$api = plugins_api( 'plugin_information', $api_args );
 
 	if ( is_wp_error( $api ) )
 		return $api;
+    }
 
 	$skin = new IREMOTE_Plugin_Upgrader_Skin();
 	$upgrader = new Plugin_Upgrader( $skin );
+
+		if ( ! empty( $args['zip_url'] ) ) {
+			$result = @$upgrader->run(
+			                array(
+			                    'package'           => $args['zip_url'],
+			                    'destination'       => WP_PLUGIN_DIR,
+			                    'clear_destination' => true, //Do not overwrite files.
+			                    'clear_working'     => true,
+			                    'hook_extra'        => array()
+			                )
+			            );
+
+	    } else {
 
 	// The best way to get a download link for a specific version :(
 	// Fortunately, we can depend on a relatively consistent naming pattern
@@ -223,6 +240,7 @@ function _iremo_install_plugin( $plugin, $args = array() ) {
 		$api->download_link = str_replace( $api->version . '.zip', $args['version'] . '.zip', $api->download_link );
 
 	$result = $upgrader->install( $api->download_link );
+	}
 	if ( is_wp_error( $result ) )
 		return $result;
 	else if ( ! $result )

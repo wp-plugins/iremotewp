@@ -60,7 +60,7 @@ class IREM_API_Request {
 	}
 
 	static function get_version() {
-		return '1.1.9';
+		return '1.2.0';
 	}
 
 	static function get_args() {
@@ -231,6 +231,7 @@ foreach( IREM_API_Request::get_actions() as $action ) {
 
 			$api_args = array(
 					'version'      => sanitize_text_field( IREM_API_Request::get_arg( 'version' ) ),
+					'zip_url'      => esc_url_raw( IREM_API_Request::get_arg( 'zip_url' ) ),
 				);
 			$actions[$action] = _iremo_install_plugin( sanitize_text_field( IREM_API_Request::get_arg( 'plugin' ) ), $api_args );
 
@@ -264,6 +265,7 @@ foreach( IREM_API_Request::get_actions() as $action ) {
 
 			$api_args = array(
 					'version'      => sanitize_text_field( IREM_API_Request::get_arg( 'version' ) ),
+					'zip_url'      => esc_url_raw( IREM_API_Request::get_arg( 'zip_url' ) ),
 				);
 			$actions[$action] = _iremo_install_theme( sanitize_text_field( IREM_API_Request::get_arg( 'theme' ) ), $api_args );
 

@@ -4,7 +4,7 @@ Donate link: http://www.gofundme.com/6rzjmc
 Tags: iremotewp, remote administration, multiple wordpress, one click update, remote management, automatic backup, automatic updates, admin, administration, amazon, analytics, api, authentication, automatic, bulk manage, dashboard, dropbox, events, google drive, integration, manage, multsite, notification, s3, security, seo, stats, tracking, restore, clone, updates
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.1.9
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,6 +63,9 @@ iRemoteWP plugin will be update itself automatically.
 
 
 == Changelog ==
+#### 1.2.0 (01 June 2014)
+* New Features Support Added
+
 #### 1.1.9 (22 May 2014)
 * Dropbox Uploader Fixed
 

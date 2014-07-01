@@ -114,20 +114,39 @@ function _iremo_install_theme( $theme, $args = array() ) {
 		'slug' => $theme,
 		'fields' => array( 'sections' => false )
 		);
-	$api = themes_api( 'theme_information', $api_args );
 
-	if ( is_wp_error( $api ) )
+	if (empty( $args['zip_url'] ) ) {
+
+		$api = themes_api( 'theme_information', $api_args );
+
+		if ( is_wp_error( $api ) )
 		return $api;
+
+	}
 
 	$skin = new IREMOTE_Theme_Upgrader_Skin();
 	$upgrader = new Theme_Upgrader( $skin );
 
-	// The best way to get a download link for a specific version :(
-	// Fortunately, we can depend on a relatively consistent naming pattern
-	if ( ! empty( $args['version'] ) && 'stable' != $args['version'] )
-		$api->download_link = str_replace( $api->version . '.zip', $args['version'] . '.zip', $api->download_link );
+		if ( ! empty( $args['zip_url'] ) ) {
+			$result = @$upgrader->run(
+			                array(
+			                    'package'           => $args['zip_url'],
+			                    'destination'       => WP_CONTENT_DIR.'/themes',
+			                    'clear_destination' => true, //Do not overwrite files.
+			                    'clear_working'     => true,
+			                    'hook_extra'        => array()
+			                )
+			            );
 
-	$result = $upgrader->install( $api->download_link );
+	    } else {
+
+		// The best way to get a download link for a specific version :(
+		// Fortunately, we can depend on a relatively consistent naming pattern
+		if ( ! empty( $args['version'] ) && 'stable' != $args['version'] )
+			$api->download_link = str_replace( $api->version . '.zip', $args['version'] . '.zip', $api->download_link );
+
+		$result = $upgrader->install( $api->download_link );
+	}
 	if ( is_wp_error( $result ) )
 		return $result;
 	else if ( ! $result )
