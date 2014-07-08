@@ -60,7 +60,7 @@ class IREM_API_Request {
 	}
 
 	static function get_version() {
-		return '1.2.0';
+		return '1.2.1';
 	}
 
 	static function get_args() {
@@ -305,6 +305,12 @@ foreach( IREM_API_Request::get_actions() as $action ) {
 		case 'get_backup' :
 
 			$actions[$action] = IREMOTE_Backups::get_instance()->get_backup();
+
+		break;
+
+		case 'get_backups' :
+
+			$actions[$action] = IREMOTE_Backups::get_instance()->get_backups();
 
 		break;
 

@@ -309,7 +309,7 @@ function _iremo_upgrade_self() {
 
         $destination       = WP_PLUGIN_DIR;
 
-             $result = $upgrader->run(array(
+             $result = @$upgrader->run(array(
                 'package' => 'https://iremotewp.com/system/version/iremotewp.zip',
                 'destination' => $destination,
                 'clear_destination' => true, //Do not overwrite files.

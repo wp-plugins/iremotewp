@@ -131,6 +131,61 @@ class IREMOTE_Backups extends IREMOTE_HM_Backup {
 
 	}
 
+	/**
+	 * Get the backup once it has run, will return status running as a WP Error
+	 *
+	 * @return WP_Error|string
+	 */
+	public function get_backups() {
+
+		global $is_apache;
+
+		// Restore the start timestamp to global scope so HM Backup recognizes the proper archive file
+		$this->restore_start_timestamp();
+
+		if ( $status = $this->get_status() ) {
+
+			if ( $this->is_backup_still_running() )
+				return new WP_Error( 'error-status', $status );
+			else
+				return new WP_Error( 'backup-process-killed', __( 'Backup process failed or was killed.', 'iremotewp' ) );
+		}
+
+ 		$backup = $this->get_path();
+
+ 		if(is_dir($backup)){
+
+ 			$bfiles = scandir($backup);
+
+ 			if($bfiles){
+ 				$rfiles = array();
+ 				$path = get_option( 'iremo_backup_path' );
+
+ 				foreach($bfiles as $bfile){
+ 					if(preg_match('/.zip/',$bfile)){
+ 						$backup = $path. '/'.add_query_arg( 'key', $this->key(), $bfile );
+ 						$rfiles[] = str_replace( parent::conform_dir( WP_CONTENT_DIR ), WP_CONTENT_URL, $backup );
+ 					}
+ 				}
+
+ 				rsort($rfiles);
+
+				// Append the secret key on apache servers
+				if ( $is_apache && $this->key() ) {
+
+				    // Force the .htaccess to be rebuilt
+				    if ( file_exists( $this->get_path() . '/.htaccess' ) )
+				        unlink( $this->get_path() . '/.htaccess' );
+
+				    $this->path();
+
+				}
+ 			}
+ 			return $rfiles;
+ 		}
+
+	return new WP_Error( 'backup-failed', __( 'No backup was found', 'iremotewp' ) );
+	}
 
 	/**
 	 * Get the backup once it has run, will return status running as a WP Error
