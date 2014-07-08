@@ -63,6 +63,7 @@ iRemoteWP plugin will be update itself automatically.
 
 
 == Changelog ==
+
 #### 1.2.1 (08 July 2014)
 * All backup files display support added.
 
