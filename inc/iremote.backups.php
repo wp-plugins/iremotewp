@@ -567,7 +567,7 @@ class IREMOTE_Backups extends IREMOTE_HM_Backup {
 	 * Restore the start timestamp for the backup
 	 */
 	private function restore_start_timestamp() {
-		if ( $start_timestamp = file_get_contents( $this->get_path() . '/.start-timestamp' ) )
+		if ( $start_timestamp = @file_get_contents( $this->get_path() . '/.start-timestamp' ) )
 			$this->start_timestamp = (int) $start_timestamp;
 	}
 
