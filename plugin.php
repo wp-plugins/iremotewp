@@ -3,7 +3,7 @@
 Plugin Name: iRemoteWP
 Plugin URI: http://iremotewp.com/
 Description: Manage all of your WordPress based sites from one location on <a href="http://iremotewp.com/">iRemoteWp</a>.
-Version: 1.2.1
+Version: 1.2.2
 Author: iRemoteWP
 Author URI: http://iremotewp.com/
 */
