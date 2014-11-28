@@ -8,8 +8,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-03-19 08:01+0200\n"
-"Last-Translator: iRemoteWP <support@iremotewp.com>\n"
+"PO-Revision-Date: 2014-11-27 02:18+0200\n"
+"Last-Translator: \n"
 "Language-Team: iRemoteWP <support@iremotewp.com>\n"
 "X-Generator: Poedit 1.5.4\n"
 "Language: English\n"
@@ -20,11 +20,11 @@ msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
 #: inc/iremote.admin.php:38
-msgid "iRemoteWp is almost ready. you need to enter your "
+msgid "iRemoteWP is almost ready. you need to enter your "
 msgstr ""
 
 #: inc/iremote.admin.php:38
-msgid "iRemoteWp site key"
+msgid "iRemoteWP site key"
 msgstr ""
 
 #: inc/iremote.admin.php:38
@@ -90,11 +90,11 @@ msgid "REGISTER AND GET SITE KEY"
 msgstr ""
 
 #: inc/iremote.admin.php:127
-msgid "iRemoteWp API Key successfully added"
+msgid "iRemoteWP API Key successfully added"
 msgstr ""
 
 #: inc/iremote.admin.php:127
-msgid "iRemoteWp"
+msgid "iRemoteWP"
 msgstr ""
 
 #: inc/iremote.api.php:437 inc/iremote.api.php:492
@@ -163,7 +163,7 @@ msgid ""
 msgstr ""
 
 #: inc/iremote.backups.php:407
-msgid "iRemoteWp Backup"
+msgid "iRemoteWP Backup"
 msgstr ""
 
 #: inc/iremote.compatability.php:10
@@ -191,7 +191,7 @@ msgid "The plugin"
 msgstr ""
 
 #: inc/iremote.compatability.php:52
-msgid "may cause issues with iRemoteWp."
+msgid "may cause issues with iRemoteWP."
 msgstr ""
 
 #: inc/iremote.compatability.php:54
@@ -281,5 +281,5 @@ msgid "Could not fully delete the theme: %s."
 msgstr ""
 
 #: plugin.php:54
-msgid "iRemoteWp requires PHP version 5.2.4 or greater."
+msgid "iRemoteWP requires PHP version 5.2.4 or greater."
 msgstr ""

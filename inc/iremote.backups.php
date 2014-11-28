@@ -3,7 +3,7 @@
 /**
  * IREMOTE_Backups
  *
- * Singleton class for creating backups, all scheduling is handled by iRemoteWp
+ * Singleton class for creating backups, all scheduling is handled by iRemoteWP
  */
 class IREMOTE_Backups extends IREMOTE_HM_Backup {
 
@@ -459,7 +459,7 @@ class IREMOTE_Backups extends IREMOTE_HM_Backup {
 			$contents[] = '</IfModule>';
 			$contents[] = '';
 
-			insert_with_markers( $htaccess, __( 'iRemoteWp Backup', 'iremotewp' ), $contents );
+			insert_with_markers( $htaccess, __( 'iRemoteWP Backup', 'iremotewp' ), $contents );
 
 		}
 

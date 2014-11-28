@@ -2,13 +2,15 @@
 /*
 Plugin Name: iRemoteWP
 Plugin URI: http://iremotewp.com/
-Description: Manage all of your WordPress based sites from one location on <a href="http://iremotewp.com/">iRemoteWp</a>.
-Version: 1.2.2
+Description: Manage all of your WordPress based sites from one location on <a href="http://iremotewp.com/">iRemoteWP</a>.
 Author: iRemoteWP
 Author URI: http://iremotewp.com/
+Text Domain: iremotewp
+Domain Path: /languages/
+Version: 1.2.3
 */
 
-/*  Copyright 2014 iRemoteWp.com  (email : support@iremotewp.com)
+/*  Copyright 2014 iRemoteWP.com  (email : support@iremotewp.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -51,7 +53,7 @@ if ( version_compare( phpversion(), '5.2.4', '<' ) ) {
 	deactivate_plugins( IREMOTE_PLUGIN_SLUG . '/plugin.php' );
 
 	if ( isset( $_GET['action'] ) && ( $_GET['action'] == 'activate' || $_GET['action'] == 'error_scrape' ) )
-		die( __( 'iRemoteWp requires PHP version 5.2.4 or greater.', 'iremotewp' ) );
+		die( __( 'iRemoteWP requires PHP version 5.2.4 or greater.', 'iremotewp' ) );
 
 }
 
@@ -83,10 +85,10 @@ if ( version_compare( get_bloginfo( 'version' ), '3.1', '>=' ) ) {
 }
 
 /**
- * Get a needed URL on the iRemoteWp site
+ * Get a needed URL on the iRemoteWP site
  *
  * @param string      $uri     URI for the URL (optional)
- * @return string     $url     Fully-qualified URL to iRemoteWp
+ * @return string     $url     Fully-qualified URL to iRemoteWP
  */
 function iremo_get_irem_url( $uri = '' ) {
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Do not put custom translations here. They will be deleted when you update the iRemoteWp plugin!
+ * Do not put custom translations here. They will be deleted when you update the iRemoteWP plugin!
  *
- * Keep custom translations for iRemoteWp Plugin For WordPress in '/wp-content/languages/iremotewp/'
+ * Keep custom translations for iRemoteWP Plugin For WordPress in '/wp-content/languages/iremotewp/'
  */

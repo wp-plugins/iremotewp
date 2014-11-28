@@ -11,17 +11,17 @@ function iremo_setup_admin() {
 }
 
 add_action( 'admin_menu', 'iremo_setup_admin' );
-add_action( 'admin_menu', 'iRemoteWpMenu');
+add_action( 'admin_menu', 'iRemoteWPMenu');
 
-//admin_url("options-general.php?page=iRemoteWp");
+//admin_url("options-general.php?page=iRemoteWP");
 
 /** Step 1. */
-function iRemoteWpMenu() {
-	add_options_page( 'iRemoteWp Settings', 'iRemoteWp Settings', 'manage_options', 'iRemoteWp', 'iRemoteWpOptions' );
+function iRemoteWPMenu() {
+	add_options_page( 'iRemoteWP Settings', 'iRemoteWP Settings', 'manage_options', 'iRemoteWP', 'iRemoteWPOptions' );
 }
 
 /** Step 3. */
-function iRemoteWpOptions() {
+function iRemoteWPOptions() {
 	if ( !current_user_can( 'manage_options' ) )  {
 		wp_die( __( 'You do not have sufficient permissions to access this page.' ) );
 	}
@@ -35,7 +35,7 @@ function iRemoteWpOptions() {
 
 			<p>
 
-				<?php _e( 'iRemoteWp is almost ready. you need to enter your ','iremotewp' ); ?> <a href="<?php echo esc_url( iremo_get_irem_url() ); ?>" target="_blank"><?php _e( 'iRemoteWp site key','iremotewp' ); ?></a> <?php _e( 'below. ','iremotewp' ); ?> <?php _e( 'Once you added your key, you can start to manage your site on iremotewp.com. ','iremotewp' ); ?> <?php _e( 'If you didn\'t create any site key for this site ','iremotewp' ); ?> <a href="<?php echo esc_url( iremo_get_irem_url() ); ?>" target="_blank"> <?php _e( 'Click here and get your site key free.','iremotewp' ); ?></a> <?php _e( 'If you are using multisite WordPress, you need to enter site key for only main site.','iremotewp' ); ?>
+				<?php _e( 'iRemoteWP is almost ready. you need to enter your ','iremotewp' ); ?> <a href="<?php echo esc_url( iremo_get_irem_url() ); ?>" target="_blank"><?php _e( 'iRemoteWP site key','iremotewp' ); ?></a> <?php _e( 'below. ','iremotewp' ); ?> <?php _e( 'Once you added your key, you can start to manage your site on iremotewp.com. ','iremotewp' ); ?> <?php _e( 'If you didn\'t create any site key for this site ','iremotewp' ); ?> <a href="<?php echo esc_url( iremo_get_irem_url() ); ?>" target="_blank"> <?php _e( 'Click here and get your site key free.','iremotewp' ); ?></a> <?php _e( 'If you are using multisite WordPress, you need to enter site key for only main site.','iremotewp' ); ?>
 
 			</p>
 
@@ -85,9 +85,9 @@ function iremo_add_api_key_admin_notice() { ?>
 
 		<form method="post" action="options.php">
 
-              	<h2><a href="<?php echo admin_url("options-general.php?page=iRemoteWp"); ?>" target="_self"><?php echo '<img src="' . plugins_url( 'assets/img/iremotewp-settings.png' , dirname(__FILE__) ) . '" alt=""> '; ?></a></h2>
+              	<h2><a href="<?php echo admin_url("options-general.php?page=iRemoteWP"); ?>" target="_self"><?php echo '<img src="' . plugins_url( 'assets/img/iremotewp-settings.png' , dirname(__FILE__) ) . '" alt=""> '; ?></a></h2>
 
-				<?php _e( 'Congratulations iRemoteWP is ready! but you should enter your site key before to use.', 'iremotewp' ); ?> <br /> <?php _e( 'Please goto the iRemoteWP settings page and enter your site key to continue', 'iremotewp' );?> <strong><a href="<?php echo admin_url("options-general.php?page=iRemoteWp"); ?>" target="_self"> <?php _e( 'iRemoteWP settings page', 'iremotewp' );?></a></strong> <?php _e( 'and enter your site key to continue.', 'iremotewp' );?>
+				<?php _e( 'Congratulations iRemoteWP is ready! but you should enter your site key before to use.', 'iremotewp' ); ?> <br /> <?php _e( 'Please goto the iRemoteWP settings page and enter your site key to continue', 'iremotewp' );?> <strong><a href="<?php echo admin_url("options-general.php?page=iRemoteWP"); ?>" target="_self"> <?php _e( 'iRemoteWP settings page', 'iremotewp' );?></a></strong> <?php _e( 'and enter your site key to continue.', 'iremotewp' );?>
 
 			<p>
 
@@ -109,7 +109,7 @@ function iremo_add_api_key_admin_notice() { ?>
 
 <?php }
 
-if ( ! iremo_get_site_keys() && $_GET['page'] <> 'iRemoteWp')
+if ( ! iremo_get_site_keys() && $_GET['page'] <> 'iRemoteWP')
 	add_action( 'admin_notices', 'iremo_add_api_key_admin_notice' );
 
 /**
@@ -124,7 +124,7 @@ function iremo_api_key_added_admin_notice() {
 		return; ?>
 
 	<div id="iremote_info" class="updated">
-		<p><strong><?php _e( 'iRemoteWp API Key successfully added' ); ?></strong>, close this window to go back to <a href="<?php echo esc_url( iremo_get_irem_url( '/system/' ) ); ?>"><?php _e( 'iRemoteWp','iremotewp' ); ?></a>.</p>
+		<p><strong><?php _e( 'iRemoteWP API Key successfully added' ); ?></strong>, close this window to go back to <a href="<?php echo esc_url( iremo_get_irem_url( '/system/' ) ); ?>"><?php _e( 'iRemoteWP','iremotewp' ); ?></a>.</p>
 	</div>
 
 <?php }

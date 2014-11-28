@@ -49,9 +49,9 @@ function iremo_security_admin_notice() {
 
 			<p>
 
-				<?php _e( 'The plugin', 'iremotewp' );?> <strong><?php echo esc_attr( $plugin_name ); ?></strong> <?php _e( 'may cause issues with iRemoteWp.', 'iremotewp' ); ?>
+				<?php _e( 'The plugin', 'iremotewp' );?> <strong><?php echo esc_attr( $plugin_name ); ?></strong> <?php _e( 'may cause issues with iRemoteWP.', 'iremotewp' ); ?>
 
-				<a href="http://iremotewp.com/support/?s=<?php echo esc_attr( $plugin_name ); ?>" title="iRemoteWp Support"> <?php _e( 'Click here for instructions on how to resolve this issue', 'iremotewp' ); ?> </a>
+				<a href="http://iremotewp.com/support/?s=<?php echo esc_attr( $plugin_name ); ?>" title="iRemoteWP Support"> <?php _e( 'Click here for instructions on how to resolve this issue', 'iremotewp' ); ?> </a>
 
 			</p>
 

@@ -60,7 +60,7 @@ class IREM_API_Request {
 	}
 
 	static function get_version() {
-		return '1.2.2';
+		return '1.2.3';
 	}
 
 	static function get_args() {
@@ -796,7 +796,7 @@ foreach( IREM_API_Request::get_actions() as $action ) {
 
 	        // Check requirements
         if (!extension_loaded('curl')){
-            $actions[$action] = new WP_Error( 'error', 'Remote plugin self update requires the cURL extension. please go and manulally update iRemoteWp plugin' );
+            $actions[$action] = new WP_Error( 'error', 'Remote plugin self update requires the cURL extension. please go and manulally update iRemoteWP plugin' );
         } else {
 
 		$version = @file_get_contents('https://iremotewp.com/system/version/version');
