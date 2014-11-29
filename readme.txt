@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: backup, iremotewp, remote administration, multiple wordpress, one click update, remote management, automatic backup, automatic updates, admin, administration, amazon, analytics, api, authentication, automatic, bulk manage, dashboard, dropbox, events, google drive, integration, manage, multsite, notification, s3, security, seo, stats, tracking, restore, clone, updates
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,6 +68,10 @@ iRemoteWP plugin will be update itself automatically. You can also update the iR
 
 
 == Changelog ==
+
+#### 1.2.4 (29 November 2014)
+* Russian Language pack added.
+* Spanish Language pack added.
 
 #### 1.2.3 (27 November 2014)
 * Serbo-Croatian Language pack added. Big thanks to 'Borisa Djuraskovic' from [Web Hosting Hub](http://www.webhostinghub.com/ "Web Hosting Hub").

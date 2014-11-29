@@ -8,98 +8,99 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-11-29 15:49+0200\n"
+"PO-Revision-Date: 2014-11-29 15:45+0200\n"
 "Last-Translator: \n"
 "Language-Team: iRemoteWP <support@iremotewp.com>\n"
 "X-Generator: Poedit 1.6.4\n"
-"Language: sr_RS\n"
+"Language: es\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: inc/iremote.admin.php:26
 msgid "You do not have sufficient permissions to access this page."
-msgstr "Nemate dovoljno dozvola da biste pristupili ovoj stranici."
+msgstr "Usted no tiene los permisos necesarios para acceder a esta página."
 
 #: inc/iremote.admin.php:38
 msgid "iRemoteWP is almost ready. you need to enter your "
-msgstr "iRemoteWP je skoro spreman. morate da unesete vaš"
+msgstr "iRemoteWP está casi listo. usted necesita incorporar su"
 
 #: inc/iremote.admin.php:38
 msgid "iRemoteWP site key"
-msgstr "iRemoteWP ključ sajta"
+msgstr "iRemoteWP llave del sitio"
 
 #: inc/iremote.admin.php:38
 msgid "below. "
-msgstr "ispod."
+msgstr "a continuación."
 
 #: inc/iremote.admin.php:38
 msgid ""
 "Once you added your key, you can start to manage your site on iremotewp.com. "
 msgstr ""
-"Jednom kada dodate vaš ključ, možete da upravljate vašim sajtom na  "
-"iremotewp.com."
+"Una vez que ha añadido su clave, usted puede comenzar a gestionar su sitio "
+"en mi iremotewp.com."
 
 #: inc/iremote.admin.php:38
 msgid "If you didn't create any site key for this site "
-msgstr "Ako niste napravili nikakav ključ sajta za ovaj sajt"
+msgstr "Si no ha creado ninguna tecla sitio para este sitio"
 
 #: inc/iremote.admin.php:38
 msgid "Click here and get your site key free."
-msgstr "Kliknite ovde i uzmite svoj ključ sajta besplatno."
+msgstr "Haga clic aquí y obtener su clave de sitio libre."
 
 #: inc/iremote.admin.php:38
 msgid ""
 "If you are using multisite WordPress, you need to enter site key for only "
 "main site."
 msgstr ""
-"Ako koristite multisite WordPress, morate da unesete ključ sajta samo za "
-"glavni sajt."
+"Si está utilizando WordPress MultiSite, es necesario introducir la clave de "
+"sitio para sólo el sitio principal."
 
 #: inc/iremote.admin.php:50
 msgid "Enter Your Site Key"
-msgstr "Unesite svoj ključ sajta"
+msgstr "Ingrese su Clave de sitio"
 
 #: inc/iremote.admin.php:54
 msgid "Site Key"
-msgstr "Ključ sajta"
+msgstr "clave del Sitio"
 
 #: inc/iremote.admin.php:58
 msgid "Save My Key"
-msgstr "Sačuvati moj ključ"
+msgstr "Guardar mi clave"
 
 #: inc/iremote.admin.php:90
 msgid ""
 "Congratulations iRemoteWP is ready! but you should enter your site key "
 "before to use."
 msgstr ""
-"Čestitamo  iRemoteWPje spreman! ali bi trebalo da unesete vaš ključ sajta "
-"pre nego počnete."
+"Está listo Felicitaciones de iRemoteWP! Eso se debe introducir la llave "
+"antes de su sitio para su uso."
 
 #: inc/iremote.admin.php:90
 msgid ""
 "Please goto the iRemoteWP settings page and enter your site key to continue"
 msgstr ""
-"Idite na iRemoteWP stranicu postavki i unesite vaš ključ sajta da biste "
-"nastavili"
+"Por favor, vaya a la página de configuración e introduzca su clave iRemoteWP "
+"sitio para continuar"
 
 #: inc/iremote.admin.php:90
 msgid "iRemoteWP settings page"
-msgstr "iRemoteWP stranica postavki"
+msgstr "iRemoteWP página de configuración"
 
 #: inc/iremote.admin.php:90
 msgid "and enter your site key to continue."
-msgstr "i unesite vap ključ sajta da nastavite"
+msgstr "sitio e introduzca su clave para continuar."
 
 #: inc/iremote.admin.php:94
 msgid "FOR USE IN THE SETTINGS PAGE YOU CAN GET YOUR KEY AT "
-msgstr "ZA KORIŠĆENJE STRANICE SA POSTAVKAMA MOŽETE DA NABAVITE VAŠ KLJUČ NA"
+msgstr "PARA USO EN LA PÁGINA AJUSTES QUE USTED PUEDE TENER SU LLAVE EN"
 
 #: inc/iremote.admin.php:94
 msgid "REGISTER AND GET SITE KEY"
-msgstr "REGISTRACIJA I KLJUČ SAJTA"
+msgstr "Registrarse y obtener SITIO CLAVE"
 
 #: inc/iremote.admin.php:127
 msgid "iRemoteWP API Key successfully added"
-msgstr "iRemoteWP API Ključ je uspešno dodat"
+msgstr "Clave de API agregado con éxito"
 
 #: inc/iremote.admin.php:127
 msgid "iRemoteWP"
@@ -107,70 +108,70 @@ msgstr "iRemoteWP"
 
 #: inc/iremote.api.php:437 inc/iremote.api.php:492
 msgid "No post found."
-msgstr "Nijedan post nije pronadjen."
+msgstr "Se han encontrado entradas."
 
 #: inc/iremote.api.php:485
 msgid "Error creating post."
-msgstr "Greška prilikom stvaranja posta."
+msgstr "Error al crear el cargo."
 
 #: inc/iremote.api.php:499
 msgid "Error updating post."
-msgstr "Greška prilikom updateovanja posta."
+msgstr "Un error al actualizar el puesto."
 
 #: inc/iremote.api.php:554 inc/iremote.api.php:605
 msgid "No comment found."
-msgstr "Nijedan komentar nije pronadjen.."
+msgstr "Ningún comentario encontrado."
 
 #: inc/iremote.api.php:598
 msgid "Error creating comment."
-msgstr "Greška prilikom stvaranja komentara."
+msgstr "Error al crear el comentario."
 
 #: inc/iremote.api.php:612
 msgid "Error updating comment."
-msgstr "Greška prilikom update komentara."
+msgstr "Error al actualizar comentario."
 
 #: inc/iremote.backups.php:78
 msgid "Backup file is missing."
-msgstr "Backup fajl nedostaje."
+msgstr "Archivo de copia de seguridad no se encuentra."
 
 #: inc/iremote.backups.php:103 inc/iremote.backups.php:152
 msgid "Backup process failed or was killed."
-msgstr "Backup proces nije uspeo ili je ukinut."
+msgstr "Proceso de copia de seguridad falló o fue asesinado."
 
 #: inc/iremote.backups.php:130 inc/iremote.backups.php:197
 msgid "No backup was found"
-msgstr "Nijedan backup nije pronadjen"
+msgstr "No se encontró copia de seguridad"
 
 #: inc/iremote.backups.php:246 inc/iremote.backups.php:255
 msgid "Calculating"
-msgstr "Kalkulisanje..."
+msgstr "Calculador..."
 
 #: inc/iremote.backups.php:278
 msgid "Dumping Database %s"
-msgstr "Dump baza podataka %s"
+msgstr "Base de datos de dumping %s"
 
 #: inc/iremote.backups.php:284
 msgid "Verifying Database Dump %s"
-msgstr "Verifikovanje Dump baze podataka %s"
+msgstr "Verificación de volcado de base de datos %s"
 
 #: inc/iremote.backups.php:291
 msgid "%d files remaining to archive %s"
-msgstr "%d fajlovi ostaju u arhivi %s"
+msgstr "%d restante archivos para archivar %s"
 
 #: inc/iremote.backups.php:293
 msgid "Creating zip archive %s"
-msgstr "Stvaranje zip arhive %s"
+msgstr "Crear archivo zip %s"
 
 #: inc/iremote.backups.php:301
 msgid "Verifying Zip Archive %s"
-msgstr "Verifikovanje Zip Arhive %s"
+msgstr "Archivo Zip Verificación %s"
 
 #: inc/iremote.backups.php:398
 msgid ""
 "This %s file ensures that other people cannot download your backup files."
 msgstr ""
-"Ovaj %s fajl osigurava da drugi ljudi ne mogu da downloaduju vaše backup "
-"fajlove "
+"Esta red %s Asegura que otras personas no pueden descargar los archivos de "
+"copia de seguridad."
 
 #: inc/iremote.backups.php:407
 msgid "iRemoteWP Backup"
@@ -178,15 +179,15 @@ msgstr "iRemoteWP Backup"
 
 #: inc/iremote.compatability.php:10
 msgid "BulletProof Security"
-msgstr "BulletProof bezbednost"
+msgstr "BulletProof Security"
 
 #: inc/iremote.compatability.php:11
 msgid "Wordfence Security"
-msgstr "Wordfence bezbednost"
+msgstr "Wordfence Security"
 
 #: inc/iremote.compatability.php:12
 msgid "Better WP Security"
-msgstr "Better WP bezbednost"
+msgstr "Better WP Security"
 
 #: inc/iremote.compatability.php:13
 msgid "Wordpress Firewall 2"
@@ -194,104 +195,111 @@ msgstr "Wordpress Firewall 2"
 
 #: inc/iremote.compatability.php:48
 msgid "Don't show me again"
-msgstr "Nemoj da pokuzajuš ponovo"
+msgstr "No mostrar de nuevo"
 
 #: inc/iremote.compatability.php:52
 msgid "The plugin"
-msgstr " plugin"
+msgstr "El plugin"
 
 #: inc/iremote.compatability.php:52
 msgid "may cause issues with iRemoteWP."
-msgstr "može da izazove probleme sa iRemoteWP."
+msgstr "puede causar problemas con iRemoteWP."
 
 #: inc/iremote.compatability.php:54
 msgid "Click here for instructions on how to resolve this issue"
-msgstr "Klik ovde za instrukcije o tome kako da se reše ovi problemi"
+msgstr ""
+"Haga clic aquí para obtener instrucciones sobre cómo resolver este problema"
 
 #: inc/iremote.ir.backup.php:351
 msgid "archive filename must be a non empty string"
-msgstr "ime fajla arhive"
+msgstr "El nombre del archivo debe ser una cadena no vacía"
 
 #: inc/iremote.ir.backup.php:354
 msgid "invalid file extension for archive filename"
-msgstr "nepostojeći fajl ekstenzije za ime fajla arhive"
+msgstr "extensión de archivo no válido para nombre de archivo comprimido"
 
 #: inc/iremote.ir.backup.php:396
 msgid "database dump filename must be a non empty string"
-msgstr "ime dump fiajla baze podataka ne sme biti prazan string"
+msgstr ""
+"volcado de la base de datos de nombre de archivo debe ser una cadena no vacía"
 
 #: inc/iremote.ir.backup.php:399
 msgid "invalid file extension for database dump filename"
-msgstr "nepostojeća fajl ekstenzija za dump bazu podataka ime fajla"
+msgstr ""
+"extensión de archivo no válido para el volcado de base de datos de nombre de "
+"archivo"
 
 #: inc/iremote.ir.backup.php:431
 msgid "Invalid root path %s must be a valid directory path"
-msgstr "Nepostojeća root putanja %s mora biti validna putanja direktorijuma"
+msgstr "%s Ruta de raíz no válido debe ser una ruta de directorio válido"
 
 #: inc/iremote.ir.backup.php:461
 msgid "Invalid backup path %s must be a non empty (string)"
-msgstr "Nepostojeća backup putanja %s ne sme da bude prazna (string)"
+msgstr "%s Ruta de respaldo no válido debe ser un no-vacío (cadena)"
 
 #: inc/iremote.ir.backup.php:670
 msgid ""
 "Invalid backup type %s must be one of (string) file, database or complete"
 msgstr ""
-"Nepostojeći backup tip %s mora biti jedan (string) fajl, baza podataka ili "
-"celo"
+"%s Tipo de respaldo no válido debe ser uno de (cadena) de archivos, bases de "
+"datos o completa"
 
 #: inc/iremote.plugins.php:89 inc/iremote.plugins.php:198
 #: inc/iremote.plugins.php:273 inc/iremote.plugins.php:325
 #: inc/iremote.themes.php:100 inc/iremote.themes.php:163
 #: inc/iremote.themes.php:215 plugin.php:211
 msgid "File modification is disabled with the DISALLOW_FILE_MODS constant."
-msgstr "Modifikacija fajla je onemogućena DISALLOW_FILE_MODS konstantno."
+msgstr ""
+"Modificación de archivos se desactiva con los DISALLOW_FILE_MODS constantes."
 
 #: inc/iremote.plugins.php:97 inc/iremote.plugins.php:282
 #: inc/iremote.plugins.php:332 inc/iremote.themes.php:171
 #: inc/iremote.themes.php:225 plugin.php:221
 msgid "The filesystem is not writable with the supplied credentials"
-msgstr "Sistem fajla ne može da se piše sa potrebnim akreditivima"
+msgstr ""
+"El sistema de archivos no se puede escribir con las credenciales "
+"proporcionadas"
 
 #: inc/iremote.plugins.php:165
 msgid "Unknown error updating plugin."
-msgstr "Nepoznata greška prilikom update plugina."
+msgstr "Desconocido plugin de actualización de error."
 
 #: inc/iremote.plugins.php:229 inc/iremote.plugins.php:305
 msgid "Unknown error installing plugin."
-msgstr "Nepoznata greška prilikom instaliranja plugina."
+msgstr "Error desconocido instalar el plugin."
 
 #: inc/iremote.plugins.php:336
 msgid "Unable to locate WordPress Plugin directory."
-msgstr "Ne može da locira WordPress Plugin direktorijum."
+msgstr "No se ha podido localizar el directorio de WordPress Plugin."
 
 #: inc/iremote.plugins.php:357
 msgid "Plugin uninstalled, but not deleted."
-msgstr "Olugij deistaliran, ali nije obrisan."
+msgstr "Plugin desinstalado, pero no se elimina."
 
 #: inc/iremote.themes.php:103
 msgid "Theme is already installed."
-msgstr "Tema je već instalirana."
+msgstr "Tema ya está instalado."
 
 #: inc/iremote.themes.php:134
 msgid "Unknown error installing theme."
-msgstr "Nepoznata greška prilikom instaliranja teme."
+msgstr "Error desconocido de instalar el tema."
 
 #: inc/iremote.themes.php:148 inc/iremote.themes.php:218
 msgid "Theme is not installed."
-msgstr "Tema nie instalirana."
+msgstr "Tema no está instalado."
 
 #: inc/iremote.themes.php:192
 msgid "Unknown error updating theme."
-msgstr "Nepoznata greška prilikom update."
+msgstr "Desconocido tema de actualización de error."
 
 #: inc/iremote.themes.php:229
 msgid "Unable to locate WordPress theme directory"
-msgstr "Nije moguće locirati WordPress direktorijum"
+msgstr "No se ha podido localizar el directorio de tema de WordPress"
 
 #: inc/iremote.themes.php:236
 msgid "Could not fully delete the theme: %s."
-msgstr "Nije mogla u potpunosti da se obripe tema %s."
+msgstr "No se puede eliminar completamente el tema: %s"
 
 #: plugin.php:54
 msgid "iRemoteWP requires PHP version 5.2.4 or greater."
-msgstr "iRemoteWP zahteva PHP verziju 5.2.4 ili veću"
+msgstr "iRemoteWP requiere la versión de PHP 5.2.4 o superior."

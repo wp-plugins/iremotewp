@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-11-28 18:27+0200\n"
+"PO-Revision-Date: 2014-11-29 15:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: iRemoteWP <support@iremotewp.com>\n"
 "X-Generator: Poedit 1.6.4\n"
@@ -148,7 +148,7 @@ msgstr "Berechnen"
 
 #: inc/iremote.backups.php:278
 msgid "Dumping Database %s"
-msgstr "Dumping-Datenbank% s"
+msgstr "Dumping-Datenbank %s"
 
 #: inc/iremote.backups.php:284
 msgid "Verifying Database Dump %s"
