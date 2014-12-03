@@ -69,6 +69,11 @@ iRemoteWP plugin will be update itself automatically. You can also update the iR
 
 == Changelog ==
 
+#### 1.2.5 (3 December 2014)
+* French language /iremotewp-fr_FR.mo added.
+* Romanian language /iremotewp-ro_RO.mo added.
+* Turkish language /iremotewp-tr_TR.mo updated.
+
 #### 1.2.4 (29 November 2014)
 * Russian Language pack added.
 * Spanish Language pack added.
