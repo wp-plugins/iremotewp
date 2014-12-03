@@ -4,17 +4,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iRemoteWP\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/iremotewp\n"
-"POT-Creation-Date: 2014-11-29 16:20+0200\n"
-"PO-Revision-Date: 2014-11-29 16:20+0200\n"
+"POT-Creation-Date: 2014-11-29 20:36+0200\n"
+"PO-Revision-Date: 2014-11-29 20:36+0200\n"
 "Last-Translator: \n"
 "Language-Team: iRemoteWP <support@iremotewp.com>\n"
-"Language: tr\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -22,90 +22,92 @@ msgstr ""
 
 #: ../inc/iremote.admin.php:26
 msgid "You do not have sufficient permissions to access this page."
-msgstr "Bu sayfaya erişim izniniz bulunmamaktadır."
+msgstr ""
+"Vous ne avez pas d'autorisations suffisantes pour accéder à cette page."
 
 #: ../inc/iremote.admin.php:38
 msgid "iRemoteWP is almost ready. you need to enter your "
-msgstr "iRemoteWP neredeyse hazır. iRemoteWP site anahtarını "
+msgstr "iRemoteWP est presque prêt. vous devez entrer votre"
 
 #: ../inc/iremote.admin.php:38
 msgid "iRemoteWP site key"
-msgstr "girmeniz gerekmektedir."
+msgstr "clé de site"
 
 #: ../inc/iremote.admin.php:38
 msgid "below. "
-msgstr "aşağıya."
+msgstr "ci-dessous."
 
 #: ../inc/iremote.admin.php:38
 msgid ""
 "Once you added your key, you can start to manage your site on iremotewp.com. "
 msgstr ""
-"Site anahtarınızı girdiğinizde, sitenizi iremotewp.com adresinden yönetmeye "
-"başlayabilirsiniz."
+"Une fois que vous avez ajouté votre clé, vous pouvez commencer à gérer votre "
+"site sur mon iremotewp.co."
 
 #: ../inc/iremote.admin.php:38
 msgid "If you didn't create any site key for this site "
-msgstr "Eğer siteniz için herhangi bir site anahtarı oluşturmadıysanız"
+msgstr "Si vous ne avez pas créé une touche de site pour ce site"
 
 #: ../inc/iremote.admin.php:38
 msgid "Click here and get your site key free."
-msgstr "Buraya tıklayıp ücertsiz site anahtarı alabilirsiniz."
+msgstr "Cliquez ici et obtenir votre clé de site gratuit."
 
 #: ../inc/iremote.admin.php:38
 msgid ""
 "If you are using multisite WordPress, you need to enter site key for only "
 "main site."
 msgstr ""
-"Eğer Çoklu Site Desteği ile bir WordPress kullanıyorsanız her site için ayrı "
-"ayrı site anahtarı girmenize gerek yoktur. Sadece ana siteye girmeniz "
-"yeterli olacaktır."
+"Si vous utilisez WordPress multisite, vous devez saisir la clé de site pour "
+"le site principal seulement."
 
 #: ../inc/iremote.admin.php:50
 msgid "Enter Your Site Key"
-msgstr "Lütfen Site Anahtarını Giriniz"
+msgstr "Entrez votre clé du site"
 
 #: ../inc/iremote.admin.php:54
 msgid "Site Key"
-msgstr "Site Anahtarı"
+msgstr "Key du site"
 
 #: ../inc/iremote.admin.php:58
 msgid "Save My Key"
-msgstr "Site Anahtarımı Kaydet"
+msgstr "Enregistrer ma clé"
 
 #: ../inc/iremote.admin.php:90
 msgid ""
 "Congratulations iRemoteWP is ready! but you should enter your site key "
 "before to use."
 msgstr ""
-"Tebrikler iRemoteWP neredeyse hazır. Fakat kullanmaya başmaladan önce  site "
-"anahtarını girmeniz gerekmektedir."
+"Félicitations iRemoteWP est prêt! que vous devez entrer la clé avant que "
+"votre site à utiliser."
 
 #: ../inc/iremote.admin.php:90
 msgid ""
 "Please goto the iRemoteWP settings page and enter your site key to continue"
 msgstr ""
-"Lütfen iRemoteWP ayar sayfasına giderek site anahtarınızı giriniz ve devam "
-"ediniz."
+"Se il vous plaît goto la page des paramètres et entrez votre clé de "
+"iRemoteWP du site pour continuer"
 
 #: ../inc/iremote.admin.php:90
 msgid "iRemoteWP settings page"
-msgstr "iRemoteWP Ayar Sayfası"
+msgstr "iRemoteWP page des paramètres"
 
 #: ../inc/iremote.admin.php:90
 msgid "and enter your site key to continue."
-msgstr "ve site anahtarını giriniz ve devam ediniz."
+msgstr "le site et entrez votre clé pour continuer."
 
 #: ../inc/iremote.admin.php:94
 msgid "FOR USE IN THE SETTINGS PAGE YOU CAN GET YOUR KEY AT "
-msgstr "AYAR SAYFA KULLANIMI İÇİN SİZE AİT SİTE ANAHTARINIZI ALABİLİRSİNİZ"
+msgstr ""
+"POUR UTILISATION DANS LA PAGE DE paramètres que vous pouvez obtenir votre "
+"clé AT"
 
 #: ../inc/iremote.admin.php:94
 msgid "REGISTER AND GET SITE KEY"
-msgstr "KAYIT OLUN VE SITE ANAHTARINIZI ALIN"
+msgstr "Inscrire et obtenir site clé"
 
 #: ../inc/iremote.admin.php:127
 msgid "iRemoteWP API Key successfully added"
-msgstr "iRemoteWP API Anahtarı başarıyla eklendi."
+msgstr "iRemoteWP Clé API ajouté avec succès"
 
 #: ../inc/iremote.admin.php:127
 msgid "iRemoteWP"
@@ -113,82 +115,82 @@ msgstr "iRemoteWP"
 
 #: ../inc/iremote.api.php:445 ../inc/iremote.api.php:500
 msgid "No post found."
-msgstr "Yazı bulunmamaktadır."
+msgstr "Aucun message trouvé."
 
 #: ../inc/iremote.api.php:493
 msgid "Error creating post."
-msgstr "Yazı oluşturulamadı."
+msgstr "Erreur de création de poste."
 
 #: ../inc/iremote.api.php:507
 msgid "Error updating post."
-msgstr "Yazı güncellenemedi."
+msgstr "Erreur mise à jour du poste."
 
 #: ../inc/iremote.api.php:562 ../inc/iremote.api.php:613
 msgid "No comment found."
-msgstr "Yorum bulunmamaktadır."
+msgstr "Aucun commentaire trouvé."
 
 #: ../inc/iremote.api.php:606
 msgid "Error creating comment."
-msgstr "Yorum oluşturulamadı."
+msgstr "Erreur de création commentaire."
 
 #: ../inc/iremote.api.php:620
 msgid "Error updating comment."
-msgstr "Yorum güncellenemedi."
+msgstr "Erreur mise à jour commentaire."
 
 #: ../inc/iremote.backups.php:78
 msgid "Backup file is missing."
-msgstr "Yedek dosyası yoktur."
+msgstr "Le fichier de sauvegarde est manquant."
 
 #: ../inc/iremote.backups.php:103 ../inc/iremote.backups.php:151
 #: ../inc/iremote.backups.php:207
 msgid "Backup process failed or was killed."
-msgstr "Yedek işlemi iptal edildi veya durduruldu."
+msgstr "Processus de sauvegarde a échoué ou a été tué."
 
 #: ../inc/iremote.backups.php:130 ../inc/iremote.backups.php:187
 #: ../inc/iremote.backups.php:252
 msgid "No backup was found"
-msgstr "Herhangi bir yedek bulunamadı"
+msgstr "Aucune sauvegarde n'a été trouvé"
 
 #: ../inc/iremote.backups.php:301 ../inc/iremote.backups.php:310
 msgid "Calculating"
-msgstr "Hesaplanıyor..."
+msgstr "calcul..."
 
 #: ../inc/iremote.backups.php:333
 #, php-format
 msgid "Dumping Database %s"
-msgstr "Veritabanı %s Oluşturuluyor"
+msgstr "Base de données de dumping %s"
 
 #: ../inc/iremote.backups.php:339
 #, php-format
 msgid "Verifying Database Dump %s"
-msgstr "Veritabanı Dökümü %s Doğrulanıyor"
+msgstr "Vérification de la base de données Dump %s"
 
 #: ../inc/iremote.backups.php:346
 #, php-format
 msgid "%d files remaining to archive %s"
-msgstr "%d Dosyaları arşivlemek için kalan %s"
+msgstr "%d fichiers à archiver %s restants"
 
 #: ../inc/iremote.backups.php:348
 #, php-format
 msgid "Creating zip archive %s"
-msgstr "Zip Arşiv Dosyası %s Oluşturuluyor"
+msgstr "Création d'archive zip %s"
 
 #: ../inc/iremote.backups.php:356
 #, php-format
 msgid "Verifying Zip Archive %s"
-msgstr "Zip Arşiv Dosyası %s Doğrulanıyor"
+msgstr "Vérification ZIP Archiver %s"
 
 #: ../inc/iremote.backups.php:453
 #, php-format
 msgid ""
 "This %s file ensures that other people cannot download your backup files."
 msgstr ""
-"Bu %s dosya diğer yetkisiz kişilerin yedek dosyalarınıza erişememelerini "
-"sağlar."
+"Ce filet %s assure que d'autres personnes ne peuvent pas télécharger vos "
+"fichiers de sauvegarde."
 
 #: ../inc/iremote.backups.php:462
 msgid "iRemoteWP Backup"
-msgstr "iRemoteWP Yedek"
+msgstr "iRemoteWP Backup"
 
 #: ../inc/iremote.compatability.php:10
 msgid "BulletProof Security"
@@ -208,53 +210,57 @@ msgstr "Wordpress Firewall 2"
 
 #: ../inc/iremote.compatability.php:48
 msgid "Don't show me again"
-msgstr "Bir daha gösterme"
+msgstr "Ne pas me montrer à nouveau"
 
 #: ../inc/iremote.compatability.php:52
 msgid "The plugin"
-msgstr "Eklenti"
+msgstr "Le plugin"
 
 #: ../inc/iremote.compatability.php:52
 msgid "may cause issues with iRemoteWP."
-msgstr "iRemoteWP ile sorunlara neden olabilir."
+msgstr "peut provoquer des problèmes avec iRemoteWP."
 
 #: ../inc/iremote.compatability.php:54
 msgid "Click here for instructions on how to resolve this issue"
-msgstr "Bu sorunu naıl aşacağınız ile ilgili bilgi için buraya tıklayınız."
+msgstr ""
+"Cliquez ici pour obtenir des instructions sur la façon de résoudre ce "
+"problème"
 
 #: ../inc/iremote.ir.backup.php:351
 msgid "archive filename must be a non empty string"
-msgstr "Arşiv dosyası adı boş (string) olmamalıdır."
+msgstr "archive nom de fichier doit être une chaîne non vide"
 
 #: ../inc/iremote.ir.backup.php:354
 msgid "invalid file extension for archive filename"
-msgstr "Arşiv dosyası adı için geçersiz dosya uzantısı."
+msgstr "mesh extension de fichier non valide pour archiveur"
 
 #: ../inc/iremote.ir.backup.php:396
 msgid "database dump filename must be a non empty string"
-msgstr "Veritabanı dökümü dosya adı boş (string) olmamalıdır."
+msgstr "dump database nom de fichier doit être une chaîne non vide"
 
 #: ../inc/iremote.ir.backup.php:399
 msgid "invalid file extension for database dump filename"
-msgstr "Veritabanı dökümü adı için geçersiz dosya uzantısı."
+msgstr ""
+"extension de fichier non valide pour la base de données vidage nom de fichier"
 
 #: ../inc/iremote.ir.backup.php:431
 #, php-format
 msgid "Invalid root path %s must be a valid directory path"
-msgstr "Geçersiz root yolu %s geçerli bir klasör yolu olmalıdır."
+msgstr ""
+"Chemin d'accès racine non valide %s doit être un chemin de répertoire valide"
 
 #: ../inc/iremote.ir.backup.php:461
 #, php-format
 msgid "Invalid backup path %s must be a non empty (string)"
-msgstr "Geçersiz yedek yolu %s boş olmamalıdır (string)"
+msgstr "Chemin de sauvegarde non valide %s doit être un non-vide (chaîne)"
 
 #: ../inc/iremote.ir.backup.php:670
 #, php-format
 msgid ""
 "Invalid backup type %s must be one of (string) file, database or complete"
 msgstr ""
-"Geeçriz yedek tipi %s en azından bir (string) dosya, veritabanı veya "
-"tamamlanmış olmalıdır."
+"Type de sauvegarde non valide %s doit être une de (chaîne) de fichiers, base "
+"de données ou complète"
 
 #: ../inc/iremote.plugins.php:89 ../inc/iremote.plugins.php:198
 #: ../inc/iremote.plugins.php:291 ../inc/iremote.plugins.php:343
@@ -262,56 +268,57 @@ msgstr ""
 #: ../inc/iremote.themes.php:234 ../plugin.php:213
 msgid "File modification is disabled with the DISALLOW_FILE_MODS constant."
 msgstr ""
-"DISALLOW_FILE_MODS komutu ile dosya düzenleme fonsyonu devre dışında "
-"bırakılmıştır."
+"Modification de fichier est désactivée avec les DISALLOW_FILE_MODS constants."
 
 #: ../inc/iremote.plugins.php:97 ../inc/iremote.plugins.php:300
 #: ../inc/iremote.plugins.php:350 ../inc/iremote.themes.php:190
 #: ../inc/iremote.themes.php:244 ../plugin.php:223
 msgid "The filesystem is not writable with the supplied credentials"
-msgstr "Dosya sistemi belirlediğiniz haklar ile yazılabilir durumda değildir."
+msgstr ""
+"Le système de fichiers ne est pas accessible en écriture avec les "
+"informations d'identification fournies"
 
 #: ../inc/iremote.plugins.php:165
 msgid "Unknown error updating plugin."
-msgstr "Eklenti güncellenirken bilinmeyen bir hata oluştu."
+msgstr "Inconnu Plugin erreur de mise à jour."
 
 #: ../inc/iremote.plugins.php:247 ../inc/iremote.plugins.php:323
 msgid "Unknown error installing plugin."
-msgstr "WordPress eklenti klasörü bulunamıyor."
+msgstr "Erreur inconnue installation du plugin."
 
 #: ../inc/iremote.plugins.php:354
 msgid "Unable to locate WordPress Plugin directory."
-msgstr "Tema güncellenirken bilinmeyen bir hata oluştu."
+msgstr "Impossible de localiser répertoire WordPress Plugin."
 
 #: ../inc/iremote.plugins.php:375
 msgid "Plugin uninstalled, but not deleted."
-msgstr "Eklenti etkisizleştirildi fakat kaldırılamadı."
+msgstr "Plugin désinstallé, mais pas supprimé."
 
 #: ../inc/iremote.themes.php:103
 msgid "Theme is already installed."
-msgstr "Tema daha önceden yüklenmiş."
+msgstr "Thème est déjà installé."
 
 #: ../inc/iremote.themes.php:153
 msgid "Unknown error installing theme."
-msgstr "Tema yüklenirken bilinmeyen bir hata oluştu."
+msgstr "Erreur inconnue installer le thème."
 
 #: ../inc/iremote.themes.php:167 ../inc/iremote.themes.php:237
 msgid "Theme is not installed."
-msgstr "Tema yüklenemedi."
+msgstr "Thème ne est pas installé."
 
 #: ../inc/iremote.themes.php:211
 msgid "Unknown error updating theme."
-msgstr "Tema güncellenirken bilinmeyen bir hata oluştu."
+msgstr "Inconnu thème erreur de mise à jour."
 
 #: ../inc/iremote.themes.php:248
 msgid "Unable to locate WordPress theme directory"
-msgstr "WordPress tema klasörü bulunamıyor."
+msgstr "Impossible de localiser répertoire WordPress thème"
 
 #: ../inc/iremote.themes.php:255
 #, php-format
 msgid "Could not fully delete the theme: %s."
-msgstr "Teamanın tüm dosyaları silinemdi: %s."
+msgstr "Impossible de supprimer entièrement le thème: %s."
 
 #: ../plugin.php:56
 msgid "iRemoteWP requires PHP version 5.2.4 or greater."
-msgstr "iRemoteWP PHP 5.2.4 veya yukarı versiyona gereksinim duymaktadır."
+msgstr "iRemoteWP nécessite la version PHP 5.2.4 ou supérieure."

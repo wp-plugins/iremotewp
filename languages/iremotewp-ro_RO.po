@@ -1,0 +1,299 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: iRemoteWP\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/iremotewp\n"
+"POT-Creation-Date: 2014-03-19 05:53:59+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-11-29 22:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: iRemoteWP <support@iremotewp.com>\n"
+"X-Generator: Poedit 1.6.4\n"
+"Language: ro\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+
+#: inc/iremote.admin.php:26
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nu aveți permisiuni suficiente pentru a accesa această pagină."
+
+#: inc/iremote.admin.php:38
+msgid "iRemoteWP is almost ready. you need to enter your "
+msgstr "iRemoteWP ste aproape gata. trebuie să introduceți dvs."
+
+#: inc/iremote.admin.php:38
+msgid "iRemoteWP site key"
+msgstr "iRemoteWP cheie site-ul"
+
+#: inc/iremote.admin.php:38
+msgid "below. "
+msgstr "de mai jos."
+
+#: inc/iremote.admin.php:38
+msgid ""
+"Once you added your key, you can start to manage your site on iremotewp.com. "
+msgstr ""
+"Odată ce ați adăugat cheie, puteți începe pentru a gestiona site-ul dvs. pe "
+"iremotewp.com."
+
+#: inc/iremote.admin.php:38
+msgid "If you didn't create any site key for this site "
+msgstr "Dacă nu ați creat nici o tastă site-ul pentru site-ul"
+
+#: inc/iremote.admin.php:38
+msgid "Click here and get your site key free."
+msgstr "Faceți clic aici și de a lua cheia site-ul dvs. gratuit."
+
+#: inc/iremote.admin.php:38
+msgid ""
+"If you are using multisite WordPress, you need to enter site key for only "
+"main site."
+msgstr ""
+"Dacă utilizați WordPress multe locuri, trebuie să introduceți cheia site "
+"numai site-ul principal."
+
+#: inc/iremote.admin.php:50
+msgid "Enter Your Site Key"
+msgstr "Introduceți cheie Site"
+
+#: inc/iremote.admin.php:54
+msgid "Site Key"
+msgstr "Key site-ului"
+
+#: inc/iremote.admin.php:58
+msgid "Save My Key"
+msgstr "Salvează cheia mea"
+
+#: inc/iremote.admin.php:90
+msgid ""
+"Congratulations iRemoteWP is ready! but you should enter your site key "
+"before to use."
+msgstr ""
+"Felicitări iRemoteWP este gata! dar ar trebui să introduceți cheia site-ul "
+"dvs. înainte de a utiliza."
+
+#: inc/iremote.admin.php:90
+msgid ""
+"Please goto the iRemoteWP settings page and enter your site key to continue"
+msgstr ""
+"Vă rugăm să Du-te la pagina de setări iRemoteWP și introduceți cheia site-ul "
+"dvs. pentru a continua"
+
+#: inc/iremote.admin.php:90
+msgid "iRemoteWP settings page"
+msgstr "iRemoteWP pagina setări"
+
+#: inc/iremote.admin.php:90
+msgid "and enter your site key to continue."
+msgstr "și introduceți cheia site-ul dvs. pentru a continua."
+
+#: inc/iremote.admin.php:94
+msgid "FOR USE IN THE SETTINGS PAGE YOU CAN GET YOUR KEY AT "
+msgstr "PENTRU UTILIZAREA ÎN pagina de setări POTI LUA CHEIA LA"
+
+#: inc/iremote.admin.php:94
+msgid "REGISTER AND GET SITE KEY"
+msgstr "Inregistreaza-te si GET SITE CHEIE"
+
+#: inc/iremote.admin.php:127
+msgid "iRemoteWP API Key successfully added"
+msgstr "Cheie API adăugat cu succes"
+
+#: inc/iremote.admin.php:127
+msgid "iRemoteWP"
+msgstr "iRemoteWP"
+
+#: inc/iremote.api.php:437 inc/iremote.api.php:492
+msgid "No post found."
+msgstr "Nu posta găsit."
+
+#: inc/iremote.api.php:485
+msgid "Error creating post."
+msgstr "Eroare la crearea poștă."
+
+#: inc/iremote.api.php:499
+msgid "Error updating post."
+msgstr "Eroare după actualizarea."
+
+#: inc/iremote.api.php:554 inc/iremote.api.php:605
+msgid "No comment found."
+msgstr "Nici un comentariu găsit."
+
+#: inc/iremote.api.php:598
+msgid "Error creating comment."
+msgstr "Eroare la crearea comentariu."
+
+#: inc/iremote.api.php:612
+msgid "Error updating comment."
+msgstr "Eroare actualizare comentariu."
+
+#: inc/iremote.backups.php:78
+msgid "Backup file is missing."
+msgstr "Fișier de backup lipsește."
+
+#: inc/iremote.backups.php:103 inc/iremote.backups.php:152
+msgid "Backup process failed or was killed."
+msgstr "Proces de backup a eșuat sau a fost ucis."
+
+#: inc/iremote.backups.php:130 inc/iremote.backups.php:197
+msgid "No backup was found"
+msgstr "Nu de rezervă a fost găsit"
+
+#: inc/iremote.backups.php:246 inc/iremote.backups.php:255
+msgid "Calculating"
+msgstr "Calculat..."
+
+#: inc/iremote.backups.php:278
+msgid "Dumping Database %s"
+msgstr "Baza de date de dumping %s"
+
+#: inc/iremote.backups.php:284
+msgid "Verifying Database Dump %s"
+msgstr "Verificarea Dump Baza de date %s"
+
+#: inc/iremote.backups.php:291
+msgid "%d files remaining to archive %s"
+msgstr "Fișierele %d rămase până la arhivă %s"
+
+#: inc/iremote.backups.php:293
+msgid "Creating zip archive %s"
+msgstr "Crearea arhivă %s"
+
+#: inc/iremote.backups.php:301
+msgid "Verifying Zip Archive %s"
+msgstr "Arhiva Verificarea Zip %s"
+
+#: inc/iremote.backups.php:398
+msgid ""
+"This %s file ensures that other people cannot download your backup files."
+msgstr ""
+"Fișier Acest %s asigură că alte persoane nu pot descărca fișiere de backup."
+
+#: inc/iremote.backups.php:407
+msgid "iRemoteWP Backup"
+msgstr "iRemoteWP Backup"
+
+#: inc/iremote.compatability.php:10
+msgid "BulletProof Security"
+msgstr "BulletProof Security"
+
+#: inc/iremote.compatability.php:11
+msgid "Wordfence Security"
+msgstr "Wordfence Security"
+
+#: inc/iremote.compatability.php:12
+msgid "Better WP Security"
+msgstr "Better WP Security"
+
+#: inc/iremote.compatability.php:13
+msgid "Wordpress Firewall 2"
+msgstr "Wordpress Firewall 2"
+
+#: inc/iremote.compatability.php:48
+msgid "Don't show me again"
+msgstr "Nu-mi arăta din nou"
+
+#: inc/iremote.compatability.php:52
+msgid "The plugin"
+msgstr "plugin-ul"
+
+#: inc/iremote.compatability.php:52
+msgid "may cause issues with iRemoteWP."
+msgstr "poate cauza probleme cu iRemoteWP."
+
+#: inc/iremote.compatability.php:54
+msgid "Click here for instructions on how to resolve this issue"
+msgstr "Click aici pentru instrucțiuni despre cum să rezolve această problemă"
+
+#: inc/iremote.ir.backup.php:351
+msgid "archive filename must be a non empty string"
+msgstr "Arhiva nume de fișier trebuie să fie un șir non gol"
+
+#: inc/iremote.ir.backup.php:354
+msgid "invalid file extension for archive filename"
+msgstr "extensie de fișier nevalidă pentru numele fișierului arhivă"
+
+#: inc/iremote.ir.backup.php:396
+msgid "database dump filename must be a non empty string"
+msgstr "benă bază de date nume de fișier trebuie să fie un șir non gol"
+
+#: inc/iremote.ir.backup.php:399
+msgid "invalid file extension for database dump filename"
+msgstr "extensie de fișier nevalidă pentru benă bază de date numele fișierului"
+
+#: inc/iremote.ir.backup.php:431
+msgid "Invalid root path %s must be a valid directory path"
+msgstr "Invalid cale rădăcină %s trebuie să fie o cale de director validă"
+
+#: inc/iremote.ir.backup.php:461
+msgid "Invalid backup path %s must be a non empty (string)"
+msgstr "Cale de rezervă invalid %s trebuie să fie un gol care nu (string)"
+
+#: inc/iremote.ir.backup.php:670
+msgid ""
+"Invalid backup type %s must be one of (string) file, database or complete"
+msgstr ""
+"Invalid tip de backup %s trebuie să fie una dintre (string) fișier, bază de "
+"date sau complet"
+
+#: inc/iremote.plugins.php:89 inc/iremote.plugins.php:198
+#: inc/iremote.plugins.php:273 inc/iremote.plugins.php:325
+#: inc/iremote.themes.php:100 inc/iremote.themes.php:163
+#: inc/iremote.themes.php:215 plugin.php:211
+msgid "File modification is disabled with the DISALLOW_FILE_MODS constant."
+msgstr ""
+"Modificarea de fișiere este dezactivată cu DISALLOW_FILE_MODS constante."
+
+#: inc/iremote.plugins.php:97 inc/iremote.plugins.php:282
+#: inc/iremote.plugins.php:332 inc/iremote.themes.php:171
+#: inc/iremote.themes.php:225 plugin.php:221
+msgid "The filesystem is not writable with the supplied credentials"
+msgstr "Fișiere nu poate fi scris cu acreditările furnizate"
+
+#: inc/iremote.plugins.php:165
+msgid "Unknown error updating plugin."
+msgstr "Necunoscut plugin actualizare eroare."
+
+#: inc/iremote.plugins.php:229 inc/iremote.plugins.php:305
+msgid "Unknown error installing plugin."
+msgstr "Eroare necunoscută instalarea plugin."
+
+#: inc/iremote.plugins.php:336
+msgid "Unable to locate WordPress Plugin directory."
+msgstr "Imposibil de a localiza directorul WordPress Plugin."
+
+#: inc/iremote.plugins.php:357
+msgid "Plugin uninstalled, but not deleted."
+msgstr "Plugin dezinstalat, dar nu șterse."
+
+#: inc/iremote.themes.php:103
+msgid "Theme is already installed."
+msgstr "Tema este deja instalat."
+
+#: inc/iremote.themes.php:134
+msgid "Unknown error installing theme."
+msgstr "Necunoscut temă eroare instalarea."
+
+#: inc/iremote.themes.php:148 inc/iremote.themes.php:218
+msgid "Theme is not installed."
+msgstr "Tema nu este instalat."
+
+#: inc/iremote.themes.php:192
+msgid "Unknown error updating theme."
+msgstr "Necunoscut temă actualizarea eroare."
+
+#: inc/iremote.themes.php:229
+msgid "Unable to locate WordPress theme directory"
+msgstr "Imposibil de a localiza directorul WordPress temă"
+
+#: inc/iremote.themes.php:236
+msgid "Could not fully delete the theme: %s."
+msgstr "Nu a putut fi șters complet tema: %s"
+
+#: plugin.php:54
+msgid "iRemoteWP requires PHP version 5.2.4 or greater."
+msgstr "iRemoteWP necesită versiunea PHP 5.2.4 sau mai mare."
