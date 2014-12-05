@@ -60,7 +60,7 @@ class IREM_API_Request {
 	}
 
 	static function get_version() {
-		return '1.2.5';
+		return '1.2.6';
 	}
 
 	static function get_args() {
@@ -323,6 +323,12 @@ foreach( IREM_API_Request::get_actions() as $action ) {
 		case 'delete_backup' :
 
 			$actions[$action] = IREMOTE_Backups::get_instance()->cleanup();
+
+		break;
+
+		case 'delete_backup_file' :
+
+			$actions[$action] = IREMOTE_Backups::get_instance()->cleanup_ziparchive(IREM_API_Request::get_arg( 'fileis' ));
 
 		break;
 

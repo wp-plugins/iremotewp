@@ -270,6 +270,25 @@ class IREMOTE_Backups extends IREMOTE_HM_Backup {
 	/**
 	 * Cleanup old ZipArchive partials that may have been left by old processes
 	 */
+	public function cleanup_ziparchive($zips) {
+
+		if ( ! file_exists( $this->get_path() . '/'.$zips.'.zip'  ) ) {
+
+				return false;
+
+		}
+
+		    if(unlink( $this->get_path() . '/'.$zips.'.zip' )){
+		    	return  true;
+		    } else {
+		    	return false;
+		    }
+
+	}
+
+	/**
+	 * Cleanup old ZipArchive partials that may have been left by old processes
+	 */
 	public function cleanup_ziparchive_partials() {
 
 		foreach( glob( $this->get_path() . '/*.zip.*' ) as $ziparchive_partial ) {
