@@ -1,7 +1,7 @@
 === iRemoteWP Multiple WordPress Control Plugin === 
 Contributors: iremotewp
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P3WNV3FXGHPXJ
-Tags: backup, iremotewp, remote administration, multiple wordpress, one click update, remote management, automatic backup, automatic updates, admin, administration, amazon, analytics, api, authentication, automatic, bulk manage, dashboard, dropbox, events, google drive, integration, manage, multsite, notification, s3, security, seo, stats, tracking, restore, clone, updates
+Tags: backup, iremotewp, remote administration, multiple wordpress, one click update, remote management, automatic backup, automatic update, admin, administration, analytics, api, authentication, automatic, bulk manage, dashboard, dropbox, events, google drive, integration, manage, multisite, notification, security, seo, stats, tracking, restore, clone, updates
 Requires at least: 3.0
 Tested up to: 4.0.1
 Stable tag: 1.2.6
@@ -19,7 +19,7 @@ The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from 
 
 * Secure, fast and easy solution for manage all your WordPress sites from one easy dashboard.
 * Manually or automatically update any or all your WordPress core install, plugins and themes.
-* Manually or scheduled automated backups of your websites (Dropbox, (Amazon S3 and Google Drive coming soon) supported).
+* Manually or scheduled automated backups of your websites (Dropbox, (*Google Drive coming soon) supported).
 * Monitor, track all of your sites WordPress version, plugins, themes each site is running and easily update.
 * One click to access WP admin of any site. No any admin password required!
 * Manage, delete, install, activate, deactivate all your current plugins and themes and install new themes and plugins one central place.
@@ -27,10 +27,6 @@ The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from 
 * Track and get notification about your website accessibility.
 * Track your activity logs and task queue.
 * and much more features...
-
-= Free =
-
-* Free perks and gifts for our paid customers. [iRemoteWP Free Perks](https://iremotewp.com/perks/ "Free perks and gifts for our paid customers")
 
 
 Check out the [iRemoteWP Video](https://www.youtube.com/watch?v=QBZ923H3xsE).
@@ -43,6 +39,11 @@ Check out [iRemoteWP.com](http://iremotewp.com/dashboard "Multiple WordPress Sit
 = Support =
 
 You can email us at support@iremotewp.com for support.
+
+
+= Free =
+
+* Free gifts for our paid customers. [iRemoteWP Free Perks](https://iremotewp.com/perks/ "Free gifts for our paid customers")
 
 
 
