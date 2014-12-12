@@ -18,14 +18,28 @@ The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from 
 = Key Features =
 
 * Secure, fast and easy solution for manage all your WordPress sites from one easy dashboard.
+* Back-up your database with one click.
+* Back-up your files with one click.
+* Activate deactivate any theme and plugin with one click.
+* Lock/Unlock auto updates for themes ad plugins with one click.
+* Delete and Install any theme or plugin with one click.
+* Back-up your complete website with one click.
 * Manually or automatically update any or all your WordPress core install, plugins and themes.
-* Manually or scheduled automated backups of your websites (Dropbox, (*Google Drive coming soon) supported).
+* Manually or scheduled automated backups of your websites to Dropbox, FTP (*Google Drive coming soon).
 * Monitor, track all of your sites WordPress version, plugins, themes each site is running and easily update.
 * One click to access WP admin of any site. No any admin password required!
 * Manage, delete, install, activate, deactivate all your current plugins and themes and install new themes and plugins one central place.
-* Free to monitor and update an unlimited number of sites.
+* Monitor, intall, back-up and update an unlimited number of sites.
 * Track and get notification about your website accessibility.
 * Track your activity logs and task queue.
+* Weekly diggest notification option.
+* Add to favorite your themes and plugins and install them with one click to any website.
+* Monitor and display your website's speed score with Google PageSpeed Insights.
+* Create group and move them separately.
+* Create your own private theme and plugin repository and install them with one click.
+* Install themes and plugins from WordPress repository with one click.
+* Install themes and plugins from any url with one click.
+* Install themes and plugins from your computer with one click.
 * and much more features...
 
 
