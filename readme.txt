@@ -15,7 +15,7 @@ iRemoteWP plugin allows you to easily and remotely manage all your WordPress bas
 The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from One Location") WordPress plugin is a amazing multiple WordPress sites management service from one location and works with [iRemoteWP.com](http://iremotewp.com/). Remotely manage all your WordPress sites from one, easy dashboard. 
 
 
-= Key Features =
+= Free Key Features For Everyone =
 
 * Secure, fast and easy solution for manage all your WordPress sites from one easy dashboard.
 * Back-up your database with one click.
@@ -23,24 +23,26 @@ The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from 
 * Activate deactivate any theme and plugin with one click.
 * Lock/Unlock auto updates for themes ad plugins with one click.
 * Delete and Install any theme or plugin with one click.
-* Back-up your complete website with one click.
+* Back-up your complete website with one click on your computer.
+* Back-up your complete website with one click to your DropBox account.
 * Manually or automatically update any or all your WordPress core install, plugins and themes.
-* Manually or scheduled automated backups of your websites to Dropbox, FTP (*Google Drive coming soon).
 * Monitor, track all of your sites WordPress version, plugins, themes each site is running and easily update.
 * One click to access WP admin of any site. No any admin password required!
 * Manage, delete, install, activate, deactivate all your current plugins and themes and install new themes and plugins one central place.
 * Monitor, intall, back-up and update an unlimited number of sites.
-* Track and get notification about your website accessibility.
+* Track and get notification about your websites accessibility.
 * Track your activity logs and task queue.
-* Weekly diggest notification option.
+* Weekly diggest email notification option your website status.
 * Add to favorite your themes and plugins and install them with one click to any website.
 * Monitor and display your website's speed score with Google PageSpeed Insights.
+* Create you own favorite plugins and themes and install them quickly.
 * Create group and move them separately.
 * Create your own private theme and plugin repository and install them with one click.
 * Install themes and plugins from WordPress repository with one click.
 * Install themes and plugins from any url with one click.
 * Install themes and plugins from your computer with one click.
 * and much more features...
+
 
 
 Check out the [iRemoteWP Video](https://www.youtube.com/watch?v=QBZ923H3xsE).
@@ -55,9 +57,18 @@ Check out [iRemoteWP.com](http://iremotewp.com/dashboard "Multiple WordPress Sit
 You can email us at support@iremotewp.com for support.
 
 
+
 = Free =
 
 * Free gifts for our paid customers. [iRemoteWP Free Perks](https://iremotewp.com/perks/ "Free gifts for our paid customers")
+
+
+
+= Coming Soon =
+
+* Scheduled automated backups of your websites to iDriveWP.com, Dropbox, Google Drive, Copy.com, your own FTP and other famous backup area. 
+* Manually backups of your websites to iDriveWP.com, Google Drive, Copy.com, your own FTP and other famous backup areas. 
+* Scheduled automated back-up your database date time basis.
 
 
 
