@@ -226,31 +226,29 @@ class IREMOTE_Backups extends IREMOTE_HM_Backup {
 
 			try {
 					// Upload
+					$uploader = null;
 			        $uploader = new DropboxUploader($_POST['dropbox']['username'], $_POST['dropbox']['password']);
 			        $uploader->setCaCertificateFile( IREMOTE_PLUGIN_PATH . '/lib/cacert.pem' );
 			        $uploader->upload($this->get_archive_filepath(), '/Backups', $this->get_archive_filename());
 			        // Upload
+			        return  true;
 
-			    } catch (Exception $e) {
+			} catch (Exception $e) {
 			        // Handle Upload Exceptions
-			        $label = ($e->getCode() & $uploader->FLAG_DROPBOX_GENERIC) ? 'DropboxUploader' : 'Exception';
+			        $label = ($uploader && $e->getCode() & $uploader::FLAG_DROPBOX_GENERIC) ? 'DropboxUploader' : 'Exception';
 			        $error = sprintf("[%s] #%d %s", $label, $e->getCode(), $e->getMessage());
-
+                    return new WP_Error( 'dropbox-failed', __( $error, 'iremotewp' ) );
 			        //print_r($error);
 
-			    }
-
-    if($error){
-    	return new WP_Error( 'errors', $e->getMessage() );
-    } else {
-    	return  true;
-    }
+			}
 
 
-		}
+		} else {
 
 		return new WP_Error( 'backup-failed', __( 'No backup was found', 'iremotewp' ) );
 
+		}
+        return true;
 	}
 
 	/**

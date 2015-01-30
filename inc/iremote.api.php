@@ -60,7 +60,7 @@ class IREM_API_Request {
 	}
 
 	static function get_version() {
-		return '1.2.7';
+		return '1.2.8';
 	}
 
 	static function get_args() {
@@ -830,6 +830,16 @@ foreach( IREM_API_Request::get_actions() as $action ) {
 
 	}
 
+}
+
+foreach ( $actions as $key => $action ) {
+
+	if ( is_wp_error( $action ) ) {
+
+		$actions[$key] = (object) array(
+			'errors' => $action->errors
+		);
+	}
 }
 
 echo json_encode( $actions );
