@@ -14,6 +14,7 @@ class IREM_API_Request {
 			exit;
 
 		} elseif ( isset( $_POST['irem_site_key'] ) ) {
+
 			$verify = $_POST['irem_site_key'];
 			unset( $_POST['irem_site_key'] );
 
@@ -60,7 +61,7 @@ class IREM_API_Request {
 	}
 
 	static function get_version() {
-		return '1.2.9';
+		return '1.2.10';
 	}
 
 	static function get_args() {
@@ -357,6 +358,7 @@ foreach( IREM_API_Request::get_actions() as $action ) {
 				'admin_url'	=> get_admin_url(),
 				'backups'	=> function_exists( '_iremo_get_backups_info' ) ? _iremo_get_backups_info() : array(),
 				'web_host'  => _iremo_integration_get_web_host(),
+				'summary'   => _iremo_get_content_summary(),
 			);
 
 		break;

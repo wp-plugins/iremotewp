@@ -25,7 +25,7 @@ class IREMOTE_HM_Backup {
 
 	/**
 	 * The start timestamp of the backup
-	 * 
+	 *
 	 * @int
 	 * @access protected
 	 */
@@ -148,7 +148,7 @@ class IREMOTE_HM_Backup {
 
 	/**
 	 * Whether or not to use a file manifest (more write-intensive)
-	 * 
+	 *
 	 * @var bool
 	 * @access private
 	 */
@@ -156,7 +156,7 @@ class IREMOTE_HM_Backup {
 
 	/**
 	 * The current file manifest file.
-	 * 
+	 *
 	 * @access private
 	 */
 	private $current_file_manifest = false;
@@ -164,7 +164,7 @@ class IREMOTE_HM_Backup {
 
 	/**
 	 * Files of the file manifest that have already been archived
-	 * 
+	 *
 	 * @access private
 	 */
 	private $file_manifest_already_archived = array();
@@ -172,14 +172,14 @@ class IREMOTE_HM_Backup {
 	/**
 	 * When using the file manifest, the number of files that should be
 	 * archived per batch.
-	 * 
+	 *
 	 * @access private
 	 */
 	private $file_manifest_per_batch = 200;
 
 	/**
 	 * Files remaining to be achived in the file manifest.
-	 * 
+	 *
 	 * @access protected
 	 */
 	protected $file_manifest_remaining = 0;
@@ -488,7 +488,7 @@ class IREMOTE_HM_Backup {
 
 	/**
 	 * Whether or not to use the file manifest
-	 * 
+	 *
 	 * @access public
 	 */
 	public function is_using_file_manifest() {
@@ -497,7 +497,7 @@ class IREMOTE_HM_Backup {
 
 	/**
 	 * Set whether or not to use the file manifest
-	 * 
+	 *
 	 * @access public
 	 */
 	public function set_is_using_file_manifest( $val ) {
@@ -506,7 +506,7 @@ class IREMOTE_HM_Backup {
 
 	/**
 	 * Create a series of file manifests for the backup
-	 * 
+	 *
 	 * @access private
 	 */
 	private function create_file_manifests() {
@@ -583,7 +583,7 @@ class IREMOTE_HM_Backup {
 
 	/**
 	 * Delete the current file manifest
-	 * 
+	 *
 	 * @access private
 	 */
 	private function delete_current_file_manifest() {
@@ -607,7 +607,7 @@ class IREMOTE_HM_Backup {
 
 	/**
 	 * Get the path to the file manifest directory
-	 * 
+	 *
 	 * @access private
 	 */
 	protected function get_file_manifest_dirpath() {
@@ -617,7 +617,7 @@ class IREMOTE_HM_Backup {
 	/**
 	 * Get batch of files to archive from the file manifest
 	 * Ignore any files that already have been archived
-	 * 
+	 *
 	 * @access private
 	 */
 	private function get_next_files_from_file_manifest() {
@@ -1041,7 +1041,7 @@ class IREMOTE_HM_Backup {
 		if ( 'database' !== $this->get_type()
 			&& $this->is_using_file_manifest()
 			&& $this->create_file_manifests() ) {
-			
+
 			$this->archive_via_file_manifest();
 
 		} else {
@@ -1067,8 +1067,14 @@ class IREMOTE_HM_Backup {
 
 			$this->do_action( 'hmbkp_archive_started' );
 
-			// ZipArchive is the fastest for chunked backups
-			if ( class_exists( 'ZipArchive' ) && empty( $this->skip_zip_archive ) ) {
+			// `zip` is the most performant archive method
+			if ( $this->get_zip_command_path() ) {
+				$this->archive_method = 'zip_files';
+				$error = $this->zip_files( $next_files );
+			}
+
+			// ZipArchive is also pretty fast for chunked backups
+			else if ( class_exists( 'ZipArchive' ) && empty( $this->skip_zip_archive ) ) {
 				$this->archive_method = 'zip_archive_files';
 
 				$ret = $this->zip_archive_files( $next_files );
@@ -1076,12 +1082,6 @@ class IREMOTE_HM_Backup {
 					$this->skip_zip_archive = true;
 					continue;
 				}
-			}
-
-			// Fall back to `zip` if ZipArchive doesn't exist
-			else if ( $this->get_zip_command_path() ) {
-				$this->archive_method = 'zip_files';
-				$error = $this->zip_files( $next_files );
 			}
 
 			// Last opportunity
@@ -1131,7 +1131,7 @@ class IREMOTE_HM_Backup {
 
 					if ( ! $pclzip->add( $this->get_database_dump_filepath(), PCLZIP_OPT_REMOVE_PATH, $this->get_path() ) )
 						$this->warning( $this->get_archive_method(), $pclzip->errorInfo( true ) );
-			
+
 					break;
 			}
 
@@ -1200,7 +1200,7 @@ class IREMOTE_HM_Backup {
 
 	/**
 	 * Restart a failed archive process
-	 * 
+	 *
 	 * @access public
 	 */
 	public function restart_archive() {
@@ -1334,7 +1334,7 @@ class IREMOTE_HM_Backup {
 
 	/**
 	 * Zip Archive one or more files
-	 * 
+	 *
 	 * @access private
 	 */
 	private function zip_archive_files( $files ) {
@@ -1406,7 +1406,7 @@ class IREMOTE_HM_Backup {
 			$full_path = trailingslashit( $this->get_root() ) . $file;
 			if ( is_dir( $full_path ) )
 				continue;
-			
+
 			if ( ! $pclzip->add( $full_path, PCLZIP_OPT_REMOVE_PATH, $this->get_root() ) )
 				$this->warning( $this->get_archive_method(), $pclzip->errorInfo( true ) );
 

@@ -7,9 +7,8 @@ function iremo_get_incompatible_plugins() {
 
 	// Plugins to check for.
 	$security_plugins = array(
-		__( 'BulletProof Security', 'iremotewp' ),
 		__( 'Wordfence Security', 'iremotewp' ),
-		__( 'Better WP Security', 'iremotewp' ),
+		__( 'iThemes Security', 'iremotewp' ),
 		__( 'Wordpress Firewall 2', 'iremotewp' )
 	);
 

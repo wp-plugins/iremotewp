@@ -7,7 +7,7 @@ Author: iRemoteWP
 Author URI: http://iremotewp.com/
 Text Domain: iremotewp
 Domain Path: /languages/
-Version: 1.2.9
+Version: 1.2.10
 */
 
 /*  Copyright 2014 iRemoteWP.com  (email : support@iremotewp.com)
@@ -113,6 +113,7 @@ function iremo_catch_api_call() {
 	require_once( IREMOTE_PLUGIN_PATH . '/inc/iremote.integration.php' );
 	require_once( IREMOTE_PLUGIN_PATH . '/inc/iremote.plugins.php' );
 	require_once( IREMOTE_PLUGIN_PATH . '/inc/iremote.themes.php' );
+	require_once( IREMOTE_PLUGIN_PATH . '/inc/iremote.content.php' );
 	require_once( IREMOTE_PLUGIN_PATH . '/inc/iremote.api.php' );
 
 		exit;
@@ -122,7 +123,7 @@ add_action( 'init', 'iremo_catch_api_call', 100 );
 
 
 /**
- * Check for a signal from the mothership
+ * Check for a signal from the iremote
  *
  * @since 2.7.0
  */

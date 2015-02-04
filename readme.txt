@@ -1,9 +1,9 @@
-=== iRemoteWP Multiple WordPress Control Plugin === 
+=== iRemoteWP Multiple WordPress Control Plugin ===
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P3WNV3FXGHPXJ
 Tags: backup, manage, iremotewp, remote administration, multiple wordpress, one click update, remote management, auto backup, auto update, automatic updates, admin, administration, analytics, api, authentication, automatic, bulk manage, dashboard, dropbox, events, google drive, integration, manage, multisite, notification, security, seo, stats, tracking, restore, clone, updates, bbpress, scheduled backup, auto backup
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.2.9
+Stable tag: 1.2.10
 Contributors: iremotewp
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,11 +12,20 @@ iRemoteWP plugin allows you to easily and remotely manage all your WordPress bas
 
 == Description ==
 
-The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from One Location") WordPress plugin is a amazing multiple WordPress sites management service from one location and works with [iRemoteWP.com](http://iremotewp.com/). Remotely manage all your WordPress sites from one, easy dashboard. 
+The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from One Location") WordPress plugin is a amazing multiple WordPress sites management service from one location and works with [iRemoteWP.com](http://iremotewp.com/). Remotely manage all your WordPress sites from one, easy dashboard.
+
+
+= What's New =
+
+* You can install theme or plugin selected group with Group operations *NEW!
+* Display post, pages, comments and edit instantly *NEW!
+* Scheduled automated backups of your websites to your FTP area. *NEW!
 
 
 = Free Key Features For Everyone =
 
+* You can install theme or plugin selected group with Group operations *NEW!
+* Display post, pages, comments and edit instantly *NEW!
 * Scheduled automated backups of your websites to your FTP area. *NEW!
 * Secure, fast and easy solution for manage all your WordPress sites from one easy dashboard.
 * Back-up your database with one click.
@@ -67,8 +76,8 @@ You can email us at support@iremotewp.com for support.
 
 = Coming Soon =
 
-* Scheduled automated backups of your websites to iDriveWP.com, Dropbox, Google Drive, Copy.com, your own FTP and other famous backup area. 
-* Manually backups of your websites to iDriveWP.com, Google Drive, Copy.com, your own FTP and other famous backup areas. 
+* Scheduled automated backups of your websites to iDriveWP.com, Dropbox, Google Drive, Copy.com, your own FTP and other famous backup area.
+* Manually backups of your websites to iDriveWP.com, Google Drive, Copy.com, your own FTP and other famous backup areas.
 * Scheduled automated back-up your database date time basis.
 
 
@@ -78,7 +87,7 @@ You can email us at support@iremotewp.com for support.
 1. Install the iRemoteWP WordPress Plugin either via the WordPress.org plugin directory, or upload the `iremotewp` to the `/wp-content/plugins/` directory
 2. Activate the iRemoteWP plugin through the 'Plugins' menu in WordPress
 3. Visit and sign up for an free account at [iRemoteWP.com](https://iremotewp.com/ "iRemoteWP") and add your site.
-4. Copy your unique site key from iRemoteWP.com and paste in to the plugin key section of you website. 
+4. Copy your unique site key from iRemoteWP.com and paste in to the plugin key section of you website.
 
 
 
@@ -95,6 +104,10 @@ iRemoteWP plugin will be update itself automatically. You can also update the iR
 
 
 == Changelog ==
+
+#### 1.2.10 (04 February 2015)
+* You can install theme or plugin selected group with Group operations.
+* Display post, pages, comments and edit instantly.
 
 #### 1.2.9 (30 January 2015)
 * Scheduled automated backups of your websites to your FTP area.

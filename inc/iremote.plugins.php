@@ -96,7 +96,9 @@ function _iremo_update_plugin( $plugin_file, $args ) {
 	if ( ! _irem_check_filesystem_access() )
 		return new WP_Error( 'filesystem-not-writable', __( 'The filesystem is not writable with the supplied credentials', 'iremotewp' ) );
 
-	$is_active = is_plugin_active( $plugin_file );
+	$is_active 		   = is_plugin_active( $plugin_file );
+	$is_active_network = is_plugin_active_for_network( $plugin_file );
+
 	foreach( get_plugins() as $path => $maybe_plugin ) {
 
 		if ( $path == $plugin_file ) {
@@ -205,7 +207,6 @@ function _iremo_install_plugin( $plugin, $args = array() ) {
 
 	// Access the plugins_api() helper function
 	include_once ABSPATH . 'wp-admin/includes/plugin-install.php';
-
 	$api_args = array(
 		'slug' => $plugin,
 		'fields' => array( 'sections' => false )
