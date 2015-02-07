@@ -237,7 +237,7 @@ class IREMOTE_Backups extends IREMOTE_HM_Backup {
 
 			} catch (Exception $e) {
 			        // Handle Upload Exceptions
-			        $label = ($uploader && $e->getCode() & $uploader::FLAG_DROPBOX_GENERIC) ? 'DropboxUploader' : 'Exception';
+			        $label = ($uploader && $e->getCode() & $uploader->FLAG_DROPBOX_GENERIC) ? 'DropboxUploader' : 'Exception';
 			        $error = sprintf("[%s] #%d %s", $label, $e->getCode(), $e->getMessage());
                     return new WP_Error( 'dropbox-failed', __( $error, 'iremotewp' ) );
 			        //print_r($error);
