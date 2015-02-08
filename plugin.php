@@ -7,7 +7,7 @@ Author: iRemoteWP
 Author URI: http://iremotewp.com/
 Text Domain: iremotewp
 Domain Path: /languages/
-Version: 1.3.2
+Version: 1.3.3
 */
 
 /*  Copyright 2014 iRemoteWP.com  (email : support@iremotewp.com)
@@ -26,7 +26,7 @@ Version: 1.3.2
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
-
+error_reporting(0);
 @ignore_user_abort(true);
 @ini_set('memory_limit', '384M');
 @ini_set('max_execution_time', 4000);
