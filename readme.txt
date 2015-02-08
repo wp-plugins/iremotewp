@@ -107,7 +107,7 @@ iRemoteWP plugin will be update itself automatically. You can also update the iR
 
 == Changelog ==
 
-#### 1.3.1 (08 February 2015)
+#### 1.3.2 (08 February 2015)
 * iRemoteWP plugin will get automaticaly key activation after the plugin activated.
 * iRemoteWP plugin will automaticaly update itself.
 
