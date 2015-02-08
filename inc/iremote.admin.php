@@ -26,6 +26,8 @@ function iRemoteWPOptions() {
 		wp_die( __( 'You do not have sufficient permissions to access this page.' ) );
 	}
 
+
+
 	echo '<div id="iremotewp_settings">';
 ?>
 
@@ -137,6 +139,15 @@ add_action( 'admin_notices', 'iremo_api_key_added_admin_notice' );
  */
 function iremo_deactivate() {
 	delete_option( 'irem_verify_key' );
+	$sitekey_url = site_url();
+	$find_h = '#^http(s)?://#';
+	$replace = '';
+	$sitekey_url = rtrim(preg_replace( $find_h, $replace, $sitekey_url ), '/').'/';
+	$sitekey_new = @file_get_contents(IREM_API_URL.'sitekey/?siteurl='.$sitekey_url);
+
+	if($sitekey_new){
+		add_option( 'irem_verify_key', $sitekey_new, '', 'yes' );
+	}
 }
 
 // Plugin activation and deactivation
