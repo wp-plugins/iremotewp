@@ -3,7 +3,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: backup, manage, iremotewp, remote administration, multiple wordpress, one click update, remote management, auto backup, auto update, automatic updates, admin, administration, analytics, api, authentication, automatic, bulk manage, dashboard, dropbox, events, google drive, integration, manage, multisite, notification, security, seo, stats, tracking, restore, clone, updates, bbpress, scheduled backup, auto backup
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 Contributors: iremotewp
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -17,6 +17,7 @@ The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from 
 
 = What's New =
 
+* Unlimited Credentials can be Added *NEW!
 * You can install theme or plugin selected group with Group operations *NEW!
 * Display post, pages, comments and edit instantly *NEW!
 * Scheduled automated backups of your websites to your FTP area. *NEW!
@@ -106,6 +107,9 @@ iRemoteWP plugin will be update itself automatically. You can also update the iR
 
 
 == Changelog ==
+
+#### 1.3.4 (20 February 2015)
+* Plugin based issues fixed.
 
 #### 1.3.3 (08 February 2015)
 * fixed error reporting issue.
