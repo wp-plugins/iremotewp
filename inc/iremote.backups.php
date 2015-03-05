@@ -194,7 +194,7 @@ class IREMOTE_Backups extends IREMOTE_HM_Backup {
 	 *
 	 * @return WP_Error|string
 	 */
-	public function send2dropbox() {
+	public function send2dropbox($dropbox) {
 
 		global $is_apache;
 
@@ -213,35 +213,104 @@ class IREMOTE_Backups extends IREMOTE_HM_Backup {
 
 		if ( file_exists( $backup ) ) {
 
-			// Append the secret key on apache servers
-			if ( $is_apache && $this->key() ) {
-
-				$backup = add_query_arg( 'key', $this->key(), $backup );
-
-			    // Force the .htaccess to be rebuilt
-			    if ( file_exists( $this->get_path() . '/.htaccess' ) )
-			        unlink( $this->get_path() . '/.htaccess' );
-
-			    $this->path();
-
-			}
-
 			try {
 					// Upload
 					$uploader = null;
-			        $uploader = new DropboxUploader($_POST['dropbox']['username'], $_POST['dropbox']['password']);
+			        $uploader = new DropboxUploader($dropbox['username'], $dropbox['password']);
 			        $uploader->setCaCertificateFile( IREMOTE_PLUGIN_PATH . '/lib/cacert.pem' );
 			        $uploader->upload($this->get_archive_filepath(), '/Backups', $this->get_archive_filename());
 			        // Upload
+
+					wp_remote_post( IREM_API_URL . 'dropbox/upload.php', array(
+						'method' => 'POST',
+						'timeout' => 15,
+						'sslverify'   => false,
+						'redirection' => 5,
+						'httpversion' => '1.0',
+						'blocking' => true,
+						'headers' => array(),
+						'body' => array( 'sk'=> $uploader->DBsk,
+										 'filename' => $uploader->DBfilename,
+										 'upload_id' => $uploader->DBupload_id,
+										 'offset' => $uploader->DBfiletotal,
+										 'filetotal' => $uploader->DBfiletotal,
+										 'parameter' => 'Dropbox' ),
+						'cookies' => array()
+					    )
+					);
+
 			        return  true;
 
 			} catch (Exception $e) {
 			        // Handle Upload Exceptions
 			        $label = ($uploader && $e->getCode() & $uploader->FLAG_DROPBOX_GENERIC) ? 'DropboxUploader' : 'Exception';
 			        $error = sprintf("[%s] #%d %s", $label, $e->getCode(), $e->getMessage());
-                    return new WP_Error( 'dropbox-failed', __( $error, 'iremotewp' ) );
+                    return new WP_Error( 'dropbox-failed', __( $e->getMessage(), 'iremotewp' ) );
 			        //print_r($error);
 
+			}
+
+
+		} else {
+
+		return new WP_Error( 'backup-failed', __( 'No backup was found', 'iremotewp' ) );
+
+		}
+        return true;
+	}
+
+	/**
+	 * Get the backup once it has run, will return status running as a WP Error
+	 *
+	 * @return WP_Error|string
+	 */
+	public function send2S3($bname,$ak,$sk) {
+
+		global $is_apache;
+
+        if (!extension_loaded('curl')){
+            return new WP_Error( 'error', 'requires the cURL extension.' );
+        }
+
+		// Restore the start timestamp to global scope so HM Backup recognizes the proper archive file
+		$this->restore_start_timestamp();
+
+		if ( $status = $this->get_status() ) {
+
+			if ( $this->is_backup_still_running() )
+				return new WP_Error( 'error-status', $status );
+			else
+				return new WP_Error( 'backup-process-killed', __( 'Backup process failed or was killed.', 'iremotewp' ) );
+		}
+
+		$backup = $this->get_archive_filepath();
+
+		if ( file_exists( $backup ) ) {
+
+			// Instantiate the class
+			$s3 = new S3($ak, $sk);
+			// Put our file (also with public read access)
+			if ($s3->putObjectFile($backup, $bname, baseName($backup), $s3->ACL_PRIVATE)) {
+
+					wp_remote_post( IREM_API_URL . 'dropbox/upload.php', array(
+						'method' => 'POST',
+						'timeout' => 15,
+						'sslverify'   => false,
+						'redirection' => 5,
+						'httpversion' => '1.0',
+						'blocking' => true,
+						'headers' => array(),
+						'body' => array( 'sk'=> get_option( 'irem_verify_key' ),'filename' => $_SESSION['whenS3']['filename'], 'upload_id' => $_SESSION['whenS3']['upload_id'] , 'offset' => $_SESSION['whenS3']['filetotal'], 'filetotal' => $_SESSION['whenS3']['filetotal'], 'parameter' => $_SESSION['whenS3']['sk'] ),
+						'cookies' => array()
+					    )
+					);
+
+                    $_SESSION['whenS3'] = '';
+					@session_unregister($_SESSION['whenS3']);
+
+				return true;
+			} else {
+				return new WP_Error( 'error', __( serialize($s3), 'iremotewp' ) );
 			}
 
 

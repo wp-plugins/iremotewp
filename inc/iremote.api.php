@@ -61,7 +61,7 @@ class IREM_API_Request {
 	}
 
 	static function get_version() {
-		return '1.3.4';
+		return '1.3.5';
 	}
 
 	static function get_args() {
@@ -317,7 +317,13 @@ foreach( IREM_API_Request::get_actions() as $action ) {
 
 		case 'send2dropbox' :
 
-			$actions[$action] = IREMOTE_Backups::get_instance()->send2dropbox();
+			$actions[$action] = IREMOTE_Backups::get_instance()->send2dropbox(IREM_API_Request::get_arg( 'dropbox' ));
+
+		break;
+
+		case 'send2S3' :
+
+			$actions[$action] = IREMOTE_Backups::get_instance()->send2S3(IREM_API_Request::get_arg( 'bname' ),IREM_API_Request::get_arg( 'ak' ),IREM_API_Request::get_arg( 'sk' ));
 
 		break;
 

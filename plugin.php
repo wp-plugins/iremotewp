@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: iRemoteWP
-Plugin URI: http://iremotewp.com/
-Description: Manage all of your WordPress based sites from one location on <a href="http://iremotewp.com/">iRemoteWP</a>.
+Plugin URI: https://iremotewp.com/
+Description: Manage all of your WordPress based sites from one location on <a href="https://iremotewp.com/">iRemoteWP</a>.
 Author: iRemoteWP
-Author URI: http://iremotewp.com/
+Author URI: https://iremotewp.com/
 Text Domain: iremotewp
 Domain Path: /languages/
-Version: 1.3.4
+Version: 1.3.5
 */
 
 /*  Copyright 2014 iRemoteWP.com  (email : support@iremotewp.com)
@@ -36,10 +36,10 @@ define( 'IREMOTE_PLUGIN_SLUG', 'iremotewp' );
 define( 'IREMOTE_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 
 if ( ! defined( 'IREM_URL' ) )
-	define( 'IREM_URL', 'http://iremotewp.com/' );
+	define( 'IREM_URL', 'https://iremotewp.com/' );
 
 if ( ! defined( 'IREM_API_URL' ) )
-	define( 'IREM_API_URL', 'http://iremotewp.com/system/' );
+	define( 'IREM_API_URL', 'https://iremotewp.com/system/' );
 
 if ( ! defined( 'IREM_LANG_DIR' ) )
 	define( 'IREM_LANG_DIR', apply_filters( 'irem_filter_lang_dir', trailingslashit( IREMOTE_PLUGIN_PATH ) . trailingslashit( 'languages' ) ) );
@@ -82,6 +82,7 @@ if ( version_compare( get_bloginfo( 'version' ), '3.1', '>=' ) ) {
 	require_once( IREMOTE_PLUGIN_PATH . '/inc/iremote.ir.backup.php' );
 	require_once( IREMOTE_PLUGIN_PATH . '/inc/iremote.backups.php' );
 	require_once( IREMOTE_PLUGIN_PATH . '/lib/DropboxUploader.php' );
+	require_once( IREMOTE_PLUGIN_PATH . '/lib/s3/S3.php' );
 }
 
 /**

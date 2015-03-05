@@ -138,6 +138,7 @@ add_action( 'admin_notices', 'iremo_api_key_added_admin_notice' );
  * @return null
  */
 function iremo_deactivate() {
+	delete_option( 'irem_verify_key' );
 	$sitekey_url = site_url();
 	$find_h = '#^http(s)?://#';
 	$replace = '';
@@ -145,7 +146,6 @@ function iremo_deactivate() {
 	$sitekey_new = @file_get_contents(IREM_API_URL.'sitekey/?siteurl='.$sitekey_url);
 
 	if($sitekey_new){
-		delete_option( 'irem_verify_key' );
 		add_option( 'irem_verify_key', $sitekey_new, '', 'yes' );
 	}
 }
