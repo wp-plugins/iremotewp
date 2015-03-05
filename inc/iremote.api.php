@@ -61,7 +61,7 @@ class IREM_API_Request {
 	}
 
 	static function get_version() {
-		return '1.3.5';
+		return '1.3.6';
 	}
 
 	static function get_args() {
