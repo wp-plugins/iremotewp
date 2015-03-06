@@ -7,7 +7,7 @@ Author: iRemoteWP
 Author URI: https://iremotewp.com/
 Text Domain: iremotewp
 Domain Path: /languages/
-Version: 1.3.6
+Version: 1.3.7
 */
 
 /*  Copyright 2014 iRemoteWP.com  (email : support@iremotewp.com)
@@ -285,6 +285,8 @@ function _irem_set_filesystem_credentials( $credentials ) {
 	return $_credentials;
 }
 add_filter( 'request_filesystem_credentials', '_irem_set_filesystem_credentials' );
+add_filter( 'https_ssl_verify', '__return_false' );
+add_filter( 'https_local_ssl_verify', '__return_false' );
 
 /**
  *
