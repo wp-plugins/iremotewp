@@ -2156,7 +2156,11 @@ final class S3Request
 		curl_setopt($curl, CURLOPT_HEADERFUNCTION, array(&$this, '__responseHeaderCallback'));
   		curl_setopt($curl, CURLOPT_NOPROGRESS, false);
         curl_setopt($curl, CURLOPT_PROGRESSFUNCTION, array(&$this, '__progressCallback'));
-		curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
+
+		if (!ini_get('safe_mode') && !ini_get('open_basedir'))
+		{
+			curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
+		}
 
 		// Request types
 		switch ($this->verb)

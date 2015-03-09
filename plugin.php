@@ -7,7 +7,7 @@ Author: iRemoteWP
 Author URI: https://iremotewp.com/
 Text Domain: iremotewp
 Domain Path: /languages/
-Version: 1.3.7
+Version: 1.3.8
 */
 
 /*  Copyright 2014 iRemoteWP.com  (email : support@iremotewp.com)
