@@ -106,6 +106,10 @@ iRemoteWP plugin will be update itself automatically. You can also update the iR
 
 1. The iRemoteWP dashboard at iremotewp.com
 2. See all of the plugins and themes needing update across all sites in one view.
+3. Back-up options iRemoteWP dashboard at iremotewp.com
+4. Plugin options iRemoteWP dashboard at iremotewp.com
+5. Theme options iRemoteWP dashboard at iremotewp.com
+6. Latest logs iRemoteWP dashboard at iremotewp.com
 
 
 
