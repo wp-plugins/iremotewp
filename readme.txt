@@ -12,11 +12,12 @@ iRemoteWP plugin allows you to easily and remotely manage all your WordPress bas
 
 == Description ==
 
-The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from One Location") WordPress plugin is a amazing multiple WordPress sites management service from one location and works with [iRemoteWP.com](http://iremotewp.com/). Remotely manage all your WordPress sites from one, easy dashboard.
+The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from One Location") WordPress plugin is a amazing multiple WordPress sites management service from one location and works with [iRemoteWP.com](http://iremotewp.com/). Remotely manage all your WordPress sites from one, easy dashboard. 
 
 
 = What's New =
 
+* Track your accont status on your iremotewp.com dashboard *NEW!
 * Scheduled automated backups of your websites to your Amazon S3 acount. *NEW! 
 * Track your backup status on your iremotewp.com dashboard *NEW!
 * Unlimited Credentials can be Added *NEW!
@@ -84,7 +85,6 @@ You can email us at support@iremotewp.com for support.
 
 * Scheduled automated backups of your websites to iDriveWP.com, Amazon S3, Google Drive, Copy.com, your own FTP and other famous backup area.
 * Manually backups of your websites to iDriveWP.com, Amazon S3, Google Drive, Copy.com, your own FTP and other famous backup areas.
-* Scheduled automated back-up your database date time basis.
 
 
 
