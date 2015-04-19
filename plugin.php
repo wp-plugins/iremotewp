@@ -7,7 +7,7 @@ Author: iRemoteWP
 Author URI: https://iremotewp.com/
 Text Domain: iremotewp
 Domain Path: /languages/
-Version: 1.3.8
+Version: 1.3.9
 */
 
 /*  Copyright 2014 iRemoteWP.com  (email : support@iremotewp.com)
@@ -44,7 +44,8 @@ if ( ! defined( 'IREM_API_URL' ) )
 if ( ! defined( 'IREM_LANG_DIR' ) )
 	define( 'IREM_LANG_DIR', apply_filters( 'irem_filter_lang_dir', trailingslashit( IREMOTE_PLUGIN_PATH ) . trailingslashit( 'languages' ) ) );
 
-
+if ( ! defined( 'IPFILTER_IPv4_REGEX' ) )
+	define( 'IPFILTER_IPv4_REGEX', '#((\d{1,3}|\*)(\.(\d{1,3}|\*)){1,3}|\*)#' );
 
 // Don't activate on anything less than PHP 5.2.4
 if ( version_compare( phpversion(), '5.2.4', '<' ) ) {
@@ -67,10 +68,9 @@ function iremotewp_styles() {
 }
 add_action('init', 'iremotewp_styles');
 
-
 require_once( IREMOTE_PLUGIN_PATH . '/inc/iremote.admin.php' );
 require_once( IREMOTE_PLUGIN_PATH . '/inc/iremote.compatability.php' );
-
+require_once( IREMOTE_PLUGIN_PATH . '/inc/iremote.security.php' );
 
 if ( get_option( 'iremo_enable_log' ) )
 	require_once( IREMOTE_PLUGIN_PATH . '/inc/iremote.log.php' );
@@ -287,6 +287,7 @@ function _irem_set_filesystem_credentials( $credentials ) {
 add_filter( 'request_filesystem_credentials', '_irem_set_filesystem_credentials' );
 add_filter( 'https_ssl_verify', '__return_false' );
 add_filter( 'https_local_ssl_verify', '__return_false' );
+add_action( 'init', '_iremo_restrict_admin');
 
 /**
  *

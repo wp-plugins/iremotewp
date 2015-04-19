@@ -146,6 +146,9 @@ function iremo_deactivate() {
 
 	if($sitekey_new){
 		delete_option( 'irem_verify_key' );
+		delete_option( '_iremo_ipfilter_ftype' );
+		delete_option( '_iremo_ipfilter_ips' );
+		delete_option( '_iremo_ipfilter_bypass_url' );
 		add_option( 'irem_verify_key', $sitekey_new, '', 'yes' );
 	}
 }

@@ -61,7 +61,7 @@ class IREM_API_Request {
 	}
 
 	static function get_version() {
-		return '1.3.8';
+		return '1.3.9';
 	}
 
 	static function get_args() {
@@ -368,6 +368,21 @@ foreach( IREM_API_Request::get_actions() as $action ) {
 			);
 
 		break;
+
+		case 'set_security':
+
+			$actions[$action] = _iremo_set_security( sanitize_text_field( IREM_API_Request::get_arg( 'filter_type' ) ) , IREM_API_Request::get_arg( 'ips_list' ) , sanitize_text_field( IREM_API_Request::get_arg( 'bypass_url' ) ) );
+
+			break;
+
+		case 'remove_security':
+
+			delete_option( '_iremo_ipfilter_ftype' );
+			delete_option( '_iremo_ipfilter_ips' );
+			delete_option( '_iremo_ipfilter_bypass_url' );
+			$actions[$action] = true;
+
+			break;
 
 		case 'get_option':
 
@@ -813,7 +828,7 @@ foreach( IREM_API_Request::get_actions() as $action ) {
             $actions[$action] = new WP_Error( 'error', 'Remote plugin self update requires the cURL extension. please go and manulally update iRemoteWP plugin' );
         } else {
 
-		$version = @file_get_contents('https://iremotewp.com/system/version/version');
+		$version = @file_get_contents(IREM_API_URL.'version/version');
 			if($version){
 				$ver = json_decode($version);
 				$current = IREM_API_Request::get_version();

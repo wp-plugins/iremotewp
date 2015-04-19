@@ -3,7 +3,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: backup, manage, iremotewp, remote administration, dropbox, google drive, amazon s3, multiple wordpress, one click update, remote management, auto backup, auto update, automatic updates, admin, administration, analytics, api, authentication, automatic, bulk manage, dashboard, events, integration, manage, multisite, notification, security, seo, stats, tracking, restore, clone, updates, bbpress, scheduled backup, scheduled backup, ftp
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.3.8
+Stable tag: 1.3.9
 Contributors: iremotewp
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -83,6 +83,7 @@ You can email us at support@iremotewp.com for support.
 
 = Coming Soon =
 
+* Security tool coming soon in iRemoteWP *NEW!
 * Scheduled automated backups of your websites to iDriveWP.com, Amazon S3, Google Drive, Copy.com, your own FTP and other famous backup area.
 * Manually backups of your websites to iDriveWP.com, Amazon S3, Google Drive, Copy.com, your own FTP and other famous backup areas.
 
@@ -114,6 +115,9 @@ iRemoteWP plugin will be update itself automatically. You can also update the iR
 
 
 == Changelog ==
+
+#### 1.3.9 (20 April 2015)
+* Security tool coming soon in iRemoteWP.
 
 #### 1.3.8 (09 March 2015)
 * Amazon S3 file fixed.
