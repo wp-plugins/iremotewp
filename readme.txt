@@ -1,6 +1,6 @@
 === iRemoteWP Multiple WordPress Control Plugin ===
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P3WNV3FXGHPXJ
-Tags: backup, manage, iremotewp, remote, dropbox, google drive, amazon, s3, multiple wordpress, one click update, remote management, auto backup, auto update, automatic updates, admin, administration, analytics, api, authentication, automatic, bulk manage, dashboard, events, integration, manage, multisite, notification, security, seo, stats, tracking, restore, clone, updates, bbpress, scheduled backup, ftp, theme, plugin
+Tags: backup, manage, iremotewp, remote, dropbox, google drive, amazon, s3, multiple wordpress, one click update, remote management, auto backup, auto update, auto updates, admin, administration, analytics, api, authentication, automatic, bulk manage, dashboard, events, integration, manage, multisite, notification, security, seo, stats, tracking, restore, clone, updates, bbpress, scheduled backup, ftp, theme, plugin, local backup, schedule
 Requires at least: 3.0
 Tested up to: 4.2
 Stable tag: 1.3.9
@@ -17,6 +17,7 @@ The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from 
 
 = What's New =
 
+* Track your backup status with progress bar on your iremotewp.com dashboard *NEW!
 * Track your accont status on your iremotewp.com dashboard *NEW!
 * Scheduled automated backups of your websites to your Amazon S3 acount. *NEW! 
 * Track your backup status on your iremotewp.com dashboard *NEW!
