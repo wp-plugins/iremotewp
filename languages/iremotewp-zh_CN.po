@@ -4,18 +4,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iRemoteWP\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/iremotewp\n"
-"POT-Creation-Date: 2015-06-27 11:02+0200\n"
-"PO-Revision-Date: 2015-06-27 11:02+0200\n"
+"POT-Creation-Date: 2015-06-27 10:58+0200\n"
+"PO-Revision-Date: 2015-06-27 10:58+0200\n"
 "Last-Translator: \n"
 "Language-Team: iRemoteWP <support@iremotewp.com>\n"
-"Language: ru\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.7\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -23,89 +22,81 @@ msgstr ""
 
 #: ../inc/iremote.admin.php:26
 msgid "You do not have sufficient permissions to access this page."
-msgstr "Вы не имеете достаточно прав для доступа к этой странице."
+msgstr "您沒有足夠的權限來訪問此頁面。"
 
 #: ../inc/iremote.admin.php:40
 msgid "iRemoteWP is almost ready. you need to enter your "
-msgstr "iRemoteWP почти готов. Вы должны ввести свой"
+msgstr "iRemoteWP幾乎準備就緒。你需要輸入你的"
 
 #: ../inc/iremote.admin.php:40
 msgid "iRemoteWP site key"
-msgstr "Ключ сайт iRemoteWP"
+msgstr "iRemoteWP網站的關鍵"
 
 #: ../inc/iremote.admin.php:40
 msgid "below. "
-msgstr "ниже."
+msgstr "偏下"
 
 #: ../inc/iremote.admin.php:40
 msgid ""
 "Once you added your key, you can start to manage your site on iremotewp.com. "
-msgstr ""
-"После того, как вы добавили свой ключ, вы можете начать управлять сайтом на "
-"моем iremotewp.com"
+msgstr "一旦你添加你的鑰匙，你就可以開始管理你的網站上iremotewp.com。"
 
 #: ../inc/iremote.admin.php:40
 msgid "If you didn't create any site key for this site "
-msgstr "Если вы не создали любую клавишу сайта для этого сайта"
+msgstr "如果你沒有創建任何站點密鑰本網站"
 
 #: ../inc/iremote.admin.php:40
 msgid "Click here and get your site key free."
-msgstr "Нажмите здесь и получите ваш бесплатный ключ сайта."
+msgstr "點擊這裡，讓您的網站的關鍵免費。"
 
 #: ../inc/iremote.admin.php:40
 msgid ""
 "If you are using multisite WordPress, you need to enter site key for only "
 "main site."
-msgstr ""
-"Если вы используете WordPress MultiSite, необходимо ввести ключ сайте только "
-"на основной сайт."
+msgstr "如果您使用的是多點的WordPress，你需要輸入網站的關鍵只有主站點。"
 
 #: ../inc/iremote.admin.php:52
 msgid "Enter Your Site Key"
-msgstr "Введите свой ключ"
+msgstr "2.输入您的密匙"
 
 #: ../inc/iremote.admin.php:56
 msgid "Site Key"
-msgstr "Ключ сайта"
+msgstr "網站密鑰"
 
 #: ../inc/iremote.admin.php:60
 msgid "Save My Key"
-msgstr "Сохранить мой ключ"
+msgstr "保存我的鑰匙"
 
 #: ../inc/iremote.admin.php:92
 msgid ""
 "Congratulations iRemoteWP is ready! but you should enter your site key "
 "before to use."
-msgstr ""
-"Поздравляем iRemoteWP готов! Это вы должны ввести ключ, прежде чем ваш сайт, "
-"чтобы использовать."
+msgstr "恭喜iRemoteWP是準備好了！但你應該輸入你的網站之前的關鍵使用。"
 
 #: ../inc/iremote.admin.php:92
 msgid ""
 "Please goto the iRemoteWP settings page and enter your site key to continue"
-msgstr ""
-"Пожалуйста, перейти на страницу настроек и введите свой ключ iRemoteWP "
-"продолжить"
+msgstr "請轉到該iRemoteWP設置頁面，並輸入您的網站鍵繼續"
 
 #: ../inc/iremote.admin.php:92
 msgid "iRemoteWP settings page"
-msgstr "iRemoteWP Страница настроек"
+msgstr "iRemoteWP設置頁面"
 
 #: ../inc/iremote.admin.php:92
 msgid "and enter your site key to continue."
-msgstr "сайт и введите ваш ключ, чтобы продолжить."
+msgstr "並輸入您的網站鍵繼續。"
 
 #: ../inc/iremote.admin.php:96
 msgid "FOR USE IN THE SETTINGS PAGE YOU CAN GET YOUR KEY AT "
-msgstr "ДЛЯ ИСПОЛЬЗОВАНИЯ В настройках странице вы можете получить ключ AT"
+msgstr "FOR USE在設置頁面中你可以得到你關鍵點"
 
 #: ../inc/iremote.admin.php:96
 msgid "REGISTER AND GET SITE KEY"
-msgstr "Зарегистрироваться и получить ключ САЙТ"
+msgstr "註冊並獲得站點KEY"
 
 #: ../inc/iremote.admin.php:129
 msgid "iRemoteWP API Key successfully added"
-msgstr "Ключ API успешно добавлен"
+msgstr "iRemoteWP API密鑰成功添加"
 
 #: ../inc/iremote.admin.php:129
 msgid "iRemoteWP"
@@ -113,82 +104,80 @@ msgstr "iRemoteWP"
 
 #: ../inc/iremote.api.php:474 ../inc/iremote.api.php:529
 msgid "No post found."
-msgstr "Нет пост не найдено."
+msgstr "找不到动态。"
 
 #: ../inc/iremote.api.php:522
 msgid "Error creating post."
-msgstr "Ошибка при создании поста."
+msgstr "錯誤創建後。"
 
 #: ../inc/iremote.api.php:536
 msgid "Error updating post."
-msgstr "Ошибка обновления должность."
+msgstr "錯誤更新帖子。"
 
 #: ../inc/iremote.api.php:591 ../inc/iremote.api.php:642
 msgid "No comment found."
-msgstr "Без комментариев не найдено."
+msgstr "暂无评论！"
 
 #: ../inc/iremote.api.php:635
 msgid "Error creating comment."
-msgstr "Ошибка при создании комментарий."
+msgstr "錯誤創建註釋。"
 
 #: ../inc/iremote.api.php:649
 msgid "Error updating comment."
-msgstr "Ошибка при обновлении комментарий."
+msgstr "更新時出錯評論。"
 
 #: ../inc/iremote.backups.php:80
 msgid "Backup file is missing."
-msgstr "Резервное копирование файлов отсутствует."
+msgstr "備份文件丟失。"
 
 #: ../inc/iremote.backups.php:105 ../inc/iremote.backups.php:153
 #: ../inc/iremote.backups.php:209 ../inc/iremote.backups.php:283
 msgid "Backup process failed or was killed."
-msgstr "Процесс резервного копирования не удалось или был убит."
+msgstr "備份過程失敗或死亡。"
 
 #: ../inc/iremote.backups.php:132 ../inc/iremote.backups.php:189
 #: ../inc/iremote.backups.php:256 ../inc/iremote.backups.php:319
 msgid "No backup was found"
-msgstr "Резервное копирование не было найдено"
+msgstr "沒有備份被發現"
 
 #: ../inc/iremote.backups.php:389 ../inc/iremote.backups.php:398
 msgid "Calculating"
-msgstr "Расчет ..."
+msgstr "正在计算"
 
 #: ../inc/iremote.backups.php:421
 #, php-format
 msgid "Dumping Database %s"
-msgstr "Демпинг База данных %s"
+msgstr "傾銷數據庫 %s"
 
 #: ../inc/iremote.backups.php:427
 #, php-format
 msgid "Verifying Database Dump %s"
-msgstr "Проверка дамп базы данных %s"
+msgstr "驗證數據庫轉儲 %s"
 
 #: ../inc/iremote.backups.php:434
 #, php-format
 msgid "%d files remaining to archive %s"
-msgstr "%d остальные файлы в архив %s"
+msgstr "剩下 %d 個文件歸檔 %s"
 
 #: ../inc/iremote.backups.php:436
 #, php-format
 msgid "Creating zip archive %s"
-msgstr "Создание почтовый архив %s"
+msgstr "創建ZIP檔案 %s"
 
 #: ../inc/iremote.backups.php:444
 #, php-format
 msgid "Verifying Zip Archive %s"
-msgstr "Проверка Страна Архив %s"
+msgstr "驗證Zip文件 %s"
 
 #: ../inc/iremote.backups.php:541
 #, php-format
 msgid ""
 "This %s file ensures that other people cannot download your backup files."
-msgstr ""
-"%s Чистая гарантирует, что другие люди не могут загрузить файлы резервных "
-"копий."
+msgstr "此 %s 文件確保其他人無法下載你的備份文件。"
 
 #: ../inc/iremote.backups.php:550
 msgid "iRemoteWP Backup"
-msgstr "iRemoteWP резервная копия"
+msgstr "iRemoteWP備份"
 
 #: ../inc/iremote.compatability.php:10
 msgid "Wordfence Security"
@@ -196,7 +185,7 @@ msgstr "Wordfence Security"
 
 #: ../inc/iremote.compatability.php:11
 msgid "iThemes Security"
-msgstr "iThemes Security"
+msgstr "iThemes安全"
 
 #: ../inc/iremote.compatability.php:12
 msgid "Wordpress Firewall 2"
@@ -204,124 +193,121 @@ msgstr "Wordpress Firewall 2"
 
 #: ../inc/iremote.compatability.php:47
 msgid "Don't show me again"
-msgstr "Не показывать меня снова"
+msgstr "不要再顯示"
 
 #: ../inc/iremote.compatability.php:51
 msgid "The plugin"
-msgstr "Плагин"
+msgstr "該插件"
 
 #: ../inc/iremote.compatability.php:51
 msgid "may cause issues with iRemoteWP."
-msgstr "может вызвать проблемы iRemoteWP."
+msgstr "可能會導致問題iRemoteWP。"
 
 #: ../inc/iremote.compatability.php:53
 msgid "Click here for instructions on how to resolve this issue"
-msgstr "Нажмите здесь для получения инструкций о том, как решить эту проблему"
+msgstr "点击说明如何解决这个问题。"
 
 #: ../inc/iremote.ir.backup.php:351
 msgid "archive filename must be a non empty string"
-msgstr "Архив Имя файла должно быть непустой строкой"
+msgstr "存檔文件名必須是一個非空字符串"
 
 #: ../inc/iremote.ir.backup.php:354
 msgid "invalid file extension for archive filename"
-msgstr "недопустимое расширение файла для файла архива"
+msgstr "無效的文件擴展名的存檔文件名"
 
 #: ../inc/iremote.ir.backup.php:396
 msgid "database dump filename must be a non empty string"
-msgstr "Имя файла дампа базы данных должен быть непустой строкой"
+msgstr "數據庫轉儲文件名必須是一個非空字符串"
 
 #: ../inc/iremote.ir.backup.php:399
 msgid "invalid file extension for database dump filename"
-msgstr "недопустимое расширение файла для дампа базы данных файла"
+msgstr "無效的文件擴展名數據庫轉儲文件名"
 
 #: ../inc/iremote.ir.backup.php:431
 #, php-format
 msgid "Invalid root path %s must be a valid directory path"
-msgstr "Неверный корневой путь %s  должен быть правильный путь каталога"
+msgstr "無效的根路徑 %s 必須是有效的目錄路徑"
 
 #: ../inc/iremote.ir.backup.php:461
 #, php-format
 msgid "Invalid backup path %s must be a non empty (string)"
-msgstr "Неверный резервный путь %s должен быть непустой (строка)"
+msgstr "無效的備份路徑 %s 必須是一個非空（字符串）"
 
 #: ../inc/iremote.ir.backup.php:670
 #, php-format
 msgid ""
 "Invalid backup type %s must be one of (string) file, database or complete"
-msgstr ""
-"Неверный тип резервного копирования %s должен быть одним из (строка) файла, "
-"базы данных или полный"
+msgstr "無效的備份類型 %s 必須是（字符串）文件，數據庫或者齊全的企業之一"
 
 #: ../inc/iremote.plugins.php:89 ../inc/iremote.plugins.php:200
 #: ../inc/iremote.plugins.php:292 ../inc/iremote.plugins.php:344
 #: ../inc/iremote.themes.php:101 ../inc/iremote.themes.php:183
 #: ../inc/iremote.themes.php:235 ../plugin.php:215
 msgid "File modification is disabled with the DISALLOW_FILE_MODS constant."
-msgstr "Модификация файла отключена с DISALLOW_FILE_MODS постоянных."
+msgstr "文件修改被禁用的 DISALLOW_FILE_MODS 不變。"
 
 #: ../inc/iremote.plugins.php:97 ../inc/iremote.plugins.php:301
 #: ../inc/iremote.plugins.php:351 ../inc/iremote.themes.php:191
 #: ../inc/iremote.themes.php:245 ../plugin.php:225
 msgid "The filesystem is not writable with the supplied credentials"
-msgstr ""
-"Файловая система не доступна для записи с помощью поставляемого полномочий"
+msgstr "該文件系統不寫，但提供的憑證"
 
 #: ../inc/iremote.plugins.php:167
 msgid "Unknown error updating plugin."
-msgstr "Неизвестный Ошибка при обновлении плагина."
+msgstr "未知錯誤更新插件。"
 
 #: ../inc/iremote.plugins.php:248 ../inc/iremote.plugins.php:324
 msgid "Unknown error installing plugin."
-msgstr "Неизвестная ошибка установки плагина."
+msgstr "未知錯誤安裝插件。"
 
 #: ../inc/iremote.plugins.php:355
 msgid "Unable to locate WordPress Plugin directory."
-msgstr "Не удалось найти каталог плагинов WordPress."
+msgstr "无法定位Neviile系统插件目录。"
 
 #: ../inc/iremote.plugins.php:376
 msgid "Plugin uninstalled, but not deleted."
-msgstr "Плагин удалить, но не удаляются."
+msgstr "插件卸載，但不會被刪除。"
 
 #: ../inc/iremote.security.php:18
 msgid "Filter type is not found."
-msgstr "Тип фильтра не найден."
+msgstr "過濾器類型未找到。"
 
 #: ../inc/iremote.security.php:27
 msgid "IP list is not correct."
-msgstr "Список IP-не правильно."
+msgstr "IP列表是不正確的。"
 
 #: ../inc/iremote.security.php:37
 msgid "Bypass URL is not found."
-msgstr "Обход URL не найден."
+msgstr "沒有找到繞過URL。"
 
 #: ../inc/iremote.themes.php:104
 msgid "Theme is already installed."
-msgstr "Тема уже установлена."
+msgstr "主題已經安裝。"
 
 #: ../inc/iremote.themes.php:154
 msgid "Unknown error installing theme."
-msgstr "Неизвестная ошибка установки тему."
+msgstr "未知錯誤安裝的主題。"
 
 #: ../inc/iremote.themes.php:168 ../inc/iremote.themes.php:238
 msgid "Theme is not installed."
-msgstr "Тема не установлен."
+msgstr "主題沒有安裝。"
 
 #: ../inc/iremote.themes.php:212
 msgid "Unknown error updating theme."
-msgstr "Неизвестный Ошибка при обновлении темы."
+msgstr "未知錯誤更新的主題。"
 
 #: ../inc/iremote.themes.php:249
 msgid "Unable to locate WordPress theme directory"
-msgstr "Не удалось найти каталог WordPress темы"
+msgstr "无法找到Neviile系统主题目录。"
 
 #: ../inc/iremote.themes.php:256
 #, php-format
 msgid "Could not fully delete the theme: %s."
-msgstr "Не удалось полностью удалить тему: %s"
+msgstr "無法完全刪除主題： %s "
 
 #: ../plugin.php:57
 msgid "iRemoteWP requires PHP version 5.2.4 or greater."
-msgstr "iRemoteWP требуется PHP версии 5.2.4 или выше."
+msgstr "iRemoteWP需要PHP 5.2.4 版本或更高。"
 
 #~ msgid "BulletProof Security"
 #~ msgstr "BulletProof Security"
