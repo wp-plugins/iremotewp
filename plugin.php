@@ -7,10 +7,10 @@ Author: iRemoteWP
 Author URI: https://iremotewp.com/
 Text Domain: iremotewp
 Domain Path: /languages/
-Version: 1.4.1
+Version: 1.4.2
 */
 
-/*  Copyright 2014 iRemoteWP.com  (email : support@iremotewp.com)
+/*  Copyright 2015 iRemoteWP.com  (email : support@iremotewp.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
