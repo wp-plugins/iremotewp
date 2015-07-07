@@ -85,8 +85,8 @@ You can email us at support@iremotewp.com for support.
 = Coming Soon =
 
 * Security tool coming soon in iRemoteWP *NEW!
-* Scheduled automated backups of your websites to iDriveWP.com, Google Drive, Copy.com, your own FTP and other famous backup areas.
-* Manually backups of your websites to iDriveWP.com, Google Drive, Copy.com, your own FTP and other famous backup areas.
+* Scheduled automated backups of your websites to iDriveWP.com, Google Drive, Copy.com, your own FTP and other famous backup areas. *DEVELOPMENT
+* Manually backups of your websites to iDriveWP.com, Google Drive, Copy.com, your own FTP and other famous backup areas. *DEVELOPMENT
 
 
 
