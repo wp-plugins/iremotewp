@@ -26,8 +26,8 @@ The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from 
 * Display post, pages, comments and edit instantly *NEW!
 * Scheduled automated backups of your websites to your FTP area. *NEW!
 * Scheduled automated backups of your websites to your Dropbox account. *NEW!
-* iRemoteWP plugin will get automaticaly key activation after the plugin activated. *NEW!
-* iRemoteWP plugin will automaticaly update itself. *NEW!
+* iRemoteWP plugin now gettting key activation automaticaly after the plugin activated. *NEW!
+* iRemoteWP plugin automaticaly updates itself. *NEW!
 
 
 = Free Key Features For Everyone =
