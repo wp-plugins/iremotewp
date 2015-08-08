@@ -2,7 +2,7 @@
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P3WNV3FXGHPXJ
 Tags: backup, manage, iremotewp, remote, dropbox, google drive, amazon, s3, multiple wordpress, one click update, remote management, auto backup, auto update, auto updates, admin, administration, analytics, api, authentication, automatic, bulk manage, dashboard, events, integration, manage, multisite, notification, security, seo, stats, tracking, restore, clone, updates, bbpress, scheduled backup, ftp, theme, plugin, local backup, schedule, perks
 Requires at least: 3.0
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: 1.4.2
 Contributors: iremotewp,
 License: GPLv2 or later
