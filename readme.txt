@@ -1,6 +1,6 @@
 === iRemoteWP Multiple WordPress Control Plugin ===
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P3WNV3FXGHPXJ
-Tags: backup, manage, iremotewp, remote, dropbox, google drive, amazon, s3, multiple wordpress, one click update, remote management, auto backup, auto update, auto updates, admin, administration, analytics, api, authentication, automatic, bulk manage, dashboard, events, integration, manage, multisite, notification, security, seo, stats, tracking, restore, clone, updates, bbpress, scheduled backup, ftp, theme, plugin, local backup, schedule, perks
+Tags: backup, manage, iremotewp, remote, dropbox, google drive, amazon, s3, multiple wordpress, one click update, remote management, auto backup, auto update, auto updates, admin, administration, analytics, api, authentication, automatic, bulk manage, dashboard, events, integration, manage, multisite, notification, security, seo, stats, tracking, restore, clone, updates, bbpress, scheduled backup, ftp, theme, plugin, local backup, schedule, perks, remote backup, multisite backup, dropbox backup, ftp backup
 Requires at least: 3.0
 Tested up to: 4.3
 Stable tag: 1.4.2
@@ -12,7 +12,7 @@ iRemoteWP plugin allows you to easily and remotely manage all your WordPress bas
 
 == Description ==
 
-The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from One Location") WordPress plugin is a amazing multiple WordPress sites management service from one location and works with [iRemoteWP.com](http://iremotewp.com/). Remotely manage all your WordPress sites from one, easy dashboard. 
+The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from One Location") WordPress plugin is a multiple WordPress sites management service from one location and works with [iRemoteWP.com](http://iremotewp.com/). Remotely manage all your WordPress sites from one, easy dashboard. 
 
 
 = What's New =
