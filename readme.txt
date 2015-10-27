@@ -1,6 +1,6 @@
 === iRemoteWP Multiple WordPress Control Plugin ===
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P3WNV3FXGHPXJ
-Tags: backup, manage, iremotewp, remote, dropbox, google drive, amazon, s3, multiple wordpress, one click update, remote management, auto backup, auto update, auto updates, admin, administration, analytics, api, authentication, automatic, bulk manage, dashboard, events, integration, manage, multisite, notification, security, seo, stats, tracking, restore, clone, updates, bbpress, scheduled backup, ftp, theme, plugin, local backup, schedule, perks, remote backup, multisite backup, dropbox backup, ftp backup
+Tags: backup, manage, updates, remote backup, iremotewp, scheduled backup, local backup, multisite backup, ftp backup, remote, dropbox, google drive, amazon, s3, multiple wordpress, one click update, remote management, auto backup, auto update, auto updates, admin, administration, analytics, api, authentication, automatic, bulk manage, dashboard, events, integration, manage, multisite, notification, security, seo, stats, tracking, restore, clone, bbpress, ftp, theme, plugin, schedule, perks, dropbox backup, cpanel
 Requires at least: 3.0
 Tested up to: 4.3
 Stable tag: 1.4.3
@@ -30,7 +30,7 @@ The [iRemoteWP](https://iremotewp.com/ "Manage Multiple WordPress Websites from 
 * iRemoteWP plugin automaticaly updates itself. *NEW!
 
 
-= Free Key Features For Everyone =
+= Free Key Features =
 
 * You can install theme or plugin selected group with Group operations *NEW!
 * Display post, pages, comments and edit instantly *NEW!
@@ -84,9 +84,10 @@ You can email us at support@iremotewp.com for support.
 
 = Coming Soon =
 
-* Security tool coming soon in iRemoteWP *NEW!
-* Scheduled automated backups of your websites to iDriveWP.com, Google Drive, Copy.com, your own FTP and other famous backup areas. *DEVELOPMENT
-* Manually backups of your websites to iDriveWP.com, Google Drive, Copy.com, your own FTP and other famous backup areas. *DEVELOPMENT
+* Security tools coming soon in iRemoteWP *NEW!
+* Scheduled automated backups of your websites to iDriveWP.com, Google Drive, Copy.com and other famous backup areas. *DEVELOPMENT
+* Manually backups of your websites to iDriveWP.com, Google Drive, Copy.com and other famous backup areas. *DEVELOPMENT
+* Restore backups in cPanel, Plesk and other famous web hosting control panels (only directory structure. email accounts not included) *DEVELOPMENT
 
 
 
@@ -117,7 +118,11 @@ iRemoteWP plugin will be update itself automatically. You can also update the iR
 
 == Changelog ==
 
-#### 1.4.2 (06 July 2015)
+#### 1.4.3 (08 August 2015)
+* language packs improved and updated.
+* Compatibility changed in readme.txt 
+
+#### 1.4.2 (07 July 2015)
 * Arabic language /iremotewp-ar_AR.mo added.
 * Japanese language /iremotewp-ja_JA.mo added.
 * language packs improved and updated.
